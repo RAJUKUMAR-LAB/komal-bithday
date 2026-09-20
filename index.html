@@ -1,0 +1,3070 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Komal (Meri Mithi Chinni)! 🎂 With All My Love ❤️</title>
+    <meta name="description"
+        content="A magical and romantic birthday surprise celebration website crafted with love for Komal Rathor. Born 22 September 2003.">
+    <link rel="canonical" href="https://birthday.komalrathor.in/">
+
+    <!-- Open Graph / WhatsApp / Social Share Preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://birthday.komalrathor.in/">
+    <meta property="og:title" content="Happy Birthday Komal (Meri Mithi Chinni)! 🎂 With All My Love ❤️">
+    <meta property="og:description" content="A magical and romantic birthday surprise celebration website crafted with love for Komal Rathor. Born 22 September 2003.">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://birthday.komalrathor.in/">
+    <meta property="twitter:title" content="Happy Birthday Komal (Meri Mithi Chinni)! 🎂 With All My Love ❤️">
+    <meta property="twitter:description" content="A magical and romantic birthday surprise celebration website crafted with love for Komal Rathor. Born 22 September 2003.">
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><text y=%2226%22 font-size=%2224%22>💖</text></svg>">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+
+<body class="quiz-active">
+
+    <!-- ==========================================================================
+         STAGE 1: LOVE & VERIFICATION QUIZ OVERLAY ("QUESTION KARKE")
+         ========================================================================== -->
+    <div id="quiz-overlay">
+        <!-- Ambient Floating Love Badges & Emojis in Empty Space -->
+        <div class="ambient-floating-badges">
+            <!-- Floating Text Cards -->
+            <div class="floating-love-card card-top-left">
+                <span>🎂 Happy Birthday <span class="highlight">Mithi Chinni</span> 🍬❤️</span>
+            </div>
+            <div class="floating-love-card card-top-right">
+                <span>💋 Mwaaah! Love You <span class="highlight">Babu</span> 😘</span>
+            </div>
+            <div class="floating-love-card card-mid-left">
+                <span>✨ Meri Sona, <span class="highlight">Meri Jaan</span> 💖</span>
+            </div>
+            <div class="floating-love-card card-mid-right">
+                <span>👑 22-09-2003: <span class="highlight">Angel Born</span> 🌸</span>
+            </div>
+            <div class="floating-love-card card-bottom-left">
+                <span>🍬 Mera Pyara <span class="highlight">Baccha & Rasgulla</span> 🥺</span>
+            </div>
+            <div class="floating-love-card card-bottom-right">
+                <span>💍 Forever Yours, <span class="highlight">Babu</span> 💖</span>
+            </div>
+
+            <!-- Floating Kiss & Heart Emojis -->
+            <div class="floating-kiss-emoji emoji-pos-1">💋</div>
+            <div class="floating-kiss-emoji emoji-pos-2">😘</div>
+            <div class="floating-kiss-emoji emoji-pos-3">💖</div>
+            <div class="floating-kiss-emoji emoji-pos-4">🍬</div>
+            <div class="floating-kiss-emoji emoji-pos-5">👩‍❤️‍💋‍👨</div>
+            <div class="floating-kiss-emoji emoji-pos-6">🌸</div>
+        </div>
+
+        <div class="quiz-container glass-card">
+
+            <!-- Step 1: Mischievous Identity Check -->
+            <div id="quiz-step-1" class="quiz-step active">
+                <div class="quiz-badge">👑 Heartfelt Security Verification ✨</div>
+                <div class="quiz-avatar-wrapper" id="quiz-avatar-box"
+                    title="Tap to switch between couple and solo photo! 💕">
+                    <div class="quiz-avatar-crown">👑</div>
+                    <div class="quiz-avatar-ring"></div>
+                    <div class="quiz-avatar-inner">
+                        <img id="quiz-avatar-img"
+                            src="https://lh3.googleusercontent.com/d/1iLugHtMzizXcXTFyHeS_hwB7DGCV6VQj"
+                            alt="Babu and Komal" class="quiz-avatar" data-state="couple">
+                    </div>
+                    <button id="btn-toggle-quiz-photo" class="quiz-avatar-switch-btn"
+                        title="Click to view Mithi Chinni solo portrait">
+                        <span>🔄 Swap Photo</span>
+                    </button>
+                    <div class="quiz-avatar-tag" id="quiz-avatar-tag">
+                        <span>💖 Babu & Mithi Chinni 💕</span>
+                    </div>
+                </div>
+                <h2 class="quiz-title">Ruk jao cutie! Pehle ek chhota sa test! 💖</h2>
+                <p class="quiz-desc">Kya aap sach mein meri <strong>Mithi Chinni</strong> hain jisne mera dil chura
+                    liya? 🥰</p>
+
+                <div class="runaway-actions">
+                    <button id="btn-yes-identity" class="btn-romantic">
+                        <span>Haan, main hi hoon aapki Mithi Chinni! 🥰</span>
+                    </button>
+                    <button id="btn-no-runaway" class="btn-secondary">
+                        <span>Nahi, koi aur 😜</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 2: Birthday Date Lock (22/09/2003) -->
+            <div id="quiz-step-2" class="quiz-step">
+                <div class="quiz-badge">✨ Date of Birth Lock</div>
+                <h2 class="quiz-title">Prove it's you, Meri Mithi Chinni! 🎂</h2>
+                <p class="quiz-desc">Apna Birthday date enter karein (DD / MM / YYYY):</p>
+
+                <div class="pin-input-group">
+                    <input type="text" maxlength="1" class="pin-digit" data-index="0" placeholder="2">
+                    <input type="text" maxlength="1" class="pin-digit" data-index="1" placeholder="2">
+                    <span class="pin-separator">/</span>
+                    <input type="text" maxlength="1" class="pin-digit" data-index="2" placeholder="0">
+                    <input type="text" maxlength="1" class="pin-digit" data-index="3" placeholder="9">
+                    <span class="pin-separator">/</span>
+                    <input type="text" maxlength="1" class="pin-digit" data-index="4" placeholder="2">
+                    <input type="text" maxlength="1" class="pin-digit" data-index="5" placeholder="0">
+                    <input type="text" maxlength="1" class="pin-digit" data-index="6" placeholder="0">
+                    <input type="text" maxlength="1" class="pin-digit" data-index="7" placeholder="3">
+                </div>
+                <div id="pin-error-msg" class="pin-hint">Hint: The day angel Komal was born (22-09-2003) 🌸</div>
+            </div>
+
+            <!-- Step 3: Love Quantity Question -->
+            <div id="quiz-step-3" class="quiz-step">
+                <div class="quiz-badge">💘 Love Meter Question</div>
+                <h2 class="quiz-title">Sach-sach batana Babu, hum aapse kitna pyaar karte hain? 🥺❤️</h2>
+                <p class="quiz-desc">Dil par haath rakh kar choose karo:</p>
+
+                <div class="quiz-options-list">
+                    <div class="quiz-option-card" data-next="4">
+                        <span>100% (Thoda kam lag raha hai na?) 🥺</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="4">
+                        <span>1000% (Yeh bhi kam hai!) ✨</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="4">
+                        <span>Infinite + 1000 Crore Times & Beyond! 💖</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="4">
+                        <span>I Love You 3000 & Beyond Infinity! 🦾❤️✨</span>
+                        <span>➔</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4: Cuteness & Smile Question -->
+            <div id="quiz-step-4" class="quiz-step">
+                <div class="quiz-badge">🌸 Cuteness Overload</div>
+                <h2 class="quiz-title">Duniya mein sabse cute smile aur aadaayein kiski hain? ✨</h2>
+                <p class="quiz-desc">Kiski smile dekh kar din ban jata hai?</p>
+
+                <div class="quiz-options-list">
+                    <div class="quiz-option-card" data-next="5">
+                        <span>Meri Mithi Chinni Komal ki 🍬</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="5">
+                        <span>Meri Pyari Babu ki 🥺</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="5">
+                        <span>Meri Gorgeous Sona ki 👑</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="5">
+                        <span>Yeh sab sirf meri Komal ke roop hain! 🥰</span>
+                        <span>➔</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 5: Gussa Manana Formula -->
+            <div id="quiz-step-5" class="quiz-step">
+                <div class="quiz-badge">🥺 Gussa Formula</div>
+                <h2 class="quiz-title">Jab Komal gussa hoti hai, toh Babu ko kya karna chahiye? 😂</h2>
+                <p class="quiz-desc">Best tareeqa select karo:</p>
+
+                <div class="quiz-options-list">
+                    <div class="quiz-option-card" data-next="6">
+                        <span>Kaan pakad ke 100 baar 'Sorry Babu' bolna aur dher saara pyaar dena 🥺❤️</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="6">
+                        <span>Dher saare chocolates, cake aur treats khilana 🍫🎂</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="6">
+                        <span>Baby voice mein 'Maan jao na meri Mithi Chinni' bolna 😘</span>
+                        <span>➔</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 6: Sabse Pyari Memory & Pehli Nazar -->
+            <div id="quiz-step-6" class="quiz-step">
+                <div class="quiz-badge">📸 Sabse Pyari Memory</div>
+                <h2 class="quiz-title">Babu ki aankhon mein aapka sabse pyara roop kab dikhta hai? 🥹📸</h2>
+                <p class="quiz-desc">Dil se choose karo meri Mithi Chinni:</p>
+
+                <div class="quiz-options-list">
+                    <div class="quiz-option-card" data-next="7">
+                        <span>Jab aap bina kisi filter ke khilkhilakar hasti ho 🥰</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="7">
+                        <span>Jab aap choti-choti baaton pe sharmati ho aur gaal laal ho jate hain 🙈</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="7">
+                        <span>Jab aap pyaar se mujhe 'Babu' keh kar pukarti ho 🥺❤️</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="7">
+                        <span>Har pal, har roop mein meri Mithi Chinni sabse pyari lagti hai 👑</span>
+                        <span>➔</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 7: Babu Ka Secret Thought & Dil Ki Baat -->
+            <div id="quiz-step-7" class="quiz-step">
+                <div class="quiz-badge">💌 Dil Ka Secret Thought</div>
+                <h2 class="quiz-title">Komal ke bina Babu ki zindagi kaisi hoti? 🥺💭</h2>
+                <p class="quiz-desc">Sach-sach guess karo Babu ke dil ki baat:</p>
+
+                <div class="quiz-options-list">
+                    <div class="quiz-option-card" data-next="8">
+                        <span>Bina meethas ki chai jaisi adhoori ☕</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="8">
+                        <span>Bina taaron ke raat ke aasmaan jaisi sooni 🌌</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="8">
+                        <span>Berang aur bina kisi hansi-khushi ke 🥀</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="8">
+                        <span>Babu ka wajood hi meri Mithi Chinni ke bina adhoora hai! 💖</span>
+                        <span>➔</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 8: Lifetime Promise -->
+            <div id="quiz-step-8" class="quiz-step">
+                <div class="quiz-badge">💍 Lifetime Promise</div>
+                <h2 class="quiz-title">Kya aap promise karti ho ki hamesha meri Mithi Chinni banke rahogi? 🌹</h2>
+                <p class="quiz-desc">Zindagi bhar meri zindagi mein meethas gholte rahogi?</p>
+
+                <div class="quiz-options-list">
+                    <div class="quiz-option-card" data-next="celebration">
+                        <span>Haan Babu, 1000% Lifetime Promise! 💍💖</span>
+                        <span>➔</span>
+                    </div>
+                    <div class="quiz-option-card" data-next="celebration">
+                        <span>Forever & Always, sirf aur sirf aapki Mithi Chinni! 🥰✨</span>
+                        <span>➔</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Celebration Transition Step -->
+            <div id="quiz-step-celebration" class="quiz-step">
+                <div class="unlock-heart-icon">💖</div>
+                <h2 class="quiz-title gradient-text">Access Granted To My Entire Heart!</h2>
+                <p class="quiz-desc">Meri Mithi Chinni, Babu, Sona... Unlocking your grand birthday universe in...</p>
+                <div id="unlock-countdown"
+                    style="font-size: 3.5rem; font-weight: 800; color: var(--accent-yellow); margin: 15px 0;">3</div>
+            </div>
+
+            <!-- Progress dots (8 Steps) -->
+            <div class="quiz-progress">
+                <div class="progress-dot active"></div>
+                <div class="progress-dot"></div>
+                <div class="progress-dot"></div>
+                <div class="progress-dot"></div>
+                <div class="progress-dot"></div>
+                <div class="progress-dot"></div>
+                <div class="progress-dot"></div>
+                <div class="progress-dot"></div>
+            </div>
+
+            <!-- Front Page Special Dedication Song (Shifted to bottom as requested) -->
+            <div class="quiz-special-music-banner" id="quiz-special-music-banner"
+                title="Click to play / pause special dedication song 🎵">
+                <div class="quiz-music-left">
+                    <button type="button" id="quiz-special-play-btn" class="quiz-music-btn"
+                        aria-label="Play or pause special song">
+                        <span id="quiz-special-play-icon">▶</span>
+                    </button>
+                    <div class="quiz-music-info">
+                        <div class="quiz-music-title">
+                            <span class="music-sparkle">✨</span> Dedication: <strong>Special Song for Mithi Chinni</strong>
+                        </div>
+                        <div class="quiz-music-subtitle">
+                            <span id="quiz-special-time">0:00 / 1:41</span> • <span>Babu's Heartfelt Melody 💕</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quiz-music-eq" id="quiz-music-eq">
+                    <span class="eq-bar"></span>
+                    <span class="eq-bar"></span>
+                    <span class="eq-bar"></span>
+                    <span class="eq-bar"></span>
+                </div>
+                <div class="quiz-special-progress-bg">
+                    <div class="quiz-special-progress-fill" id="quiz-special-progress-fill"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ==========================================================================
+         QUESTION-BY-QUESTION INTERACTIVE SURPRISE MODAL
+         ========================================================================== -->
+    <div id="surprise-modal" class="surprise-modal-overlay">
+        <div class="surprise-modal-box">
+            <div id="surprise-icon" class="surprise-icon">👑</div>
+            <h2 id="surprise-title" class="surprise-title">Special Surprise Unlocked!</h2>
+            <div id="surprise-card-inner" class="surprise-card-inner">
+                <div id="surprise-body" class="surprise-body">Surprise content...</div>
+            </div>
+            <button id="btn-surprise-continue" class="btn-romantic">
+                <span>Continue Love Journey ➔</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- ==========================================================================
+         FLOATING ACTION HUD
+         ========================================================================== -->
+    <header class="floating-hud">
+        <button id="hud-bgm-toggle" class="hud-btn" title="Toggle Romantic Music">
+            <span class="hud-icon">🎵</span>
+            <span class="hud-label">Music</span>
+            <div class="music-waves">
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+                <span class="wave-bar"></span>
+            </div>
+        </button>
+        <button id="hud-heart-rain-btn" class="hud-btn" title="Make it Rain Hearts">
+            <span class="hud-icon">💖</span>
+            <span class="hud-label">Rain Hearts</span>
+        </button>
+        <button id="hud-confetti-btn" class="hud-btn" title="Launch Confetti Shower">
+            <span class="hud-icon">🎉</span>
+            <span class="hud-label">Confetti</span>
+        </button>
+        <button id="hud-quiz-replay" class="hud-btn" title="Replay Quiz">
+            <span class="hud-icon">🔄</span>
+            <span class="hud-label">Replay Quiz</span>
+        </button>
+    </header>
+
+    <!-- ==========================================================================
+         MAIN CELEBRATION UNIVERSE
+         ========================================================================== -->
+    <main class="main-wrapper">
+
+        <!-- Ambient Floating Love Badges & Emojis in Celebration Universe -->
+        <div class="ambient-floating-badges celebration-badges">
+            <!-- Floating Text Cards -->
+            <div class="floating-love-card card-top-left">
+                <span>🎂 Happy Birthday <span class="highlight">Mithi Chinni</span> 🍬❤️</span>
+            </div>
+            <div class="floating-love-card card-top-right">
+                <span>💋 Mwaaah! Love You <span class="highlight">Babu</span> 😘</span>
+            </div>
+            <div class="floating-love-card card-mid-left">
+                <span>✨ Meri Sona, <span class="highlight">Meri Jaan</span> 💖</span>
+            </div>
+            <div class="floating-love-card card-mid-right">
+                <span>👑 22-09-2003: <span class="highlight">Angel Born</span> 🌸</span>
+            </div>
+            <div class="floating-love-card card-bottom-left">
+                <span>🍬 Mera Pyara <span class="highlight">Baccha & Rasgulla</span> 🥺</span>
+            </div>
+            <div class="floating-love-card card-bottom-right">
+                <span>💍 Forever Yours, <span class="highlight">Babu</span> 💖</span>
+            </div>
+            <div class="floating-love-card card-top-mid">
+                <span>🦾 Love You <span class="highlight">3000</span> 💙✨</span>
+            </div>
+
+            <!-- Floating Kiss & Heart Emojis -->
+            <div class="floating-kiss-emoji emoji-pos-1">💋</div>
+            <div class="floating-kiss-emoji emoji-pos-2">😘</div>
+            <div class="floating-kiss-emoji emoji-pos-3">💖</div>
+            <div class="floating-kiss-emoji emoji-pos-4">🍬</div>
+            <div class="floating-kiss-emoji emoji-pos-5">👩‍❤️‍💋‍👨</div>
+            <div class="floating-kiss-emoji emoji-pos-6">🌸</div>
+        </div>
+
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <div class="hero-crown-badge">
+                <span>👑 Happy Birthday Meri Mithi Chinni 🍬 Babu Sona Shona ❤️</span>
+            </div>
+
+            <h1 class="hero-main-title">
+                <span class="gradient-text">Happy Birthday</span>
+                <span class="mithi-chinni-tag">My Mithi Chinni 🍬❤️</span>
+                <span class="hero-romantic-script">Dearest Komal (Babu, Sona, Meri Jaan) ✨</span>
+            </h1>
+
+            <div class="hero-date-tag">
+                <span>📅 22 September 2003 ➔ Forever My Most Blessed Day</span>
+            </div>
+
+            <!-- Nickname Cloud Pills -->
+            <div class="nickname-cloud">
+                <div class="nickname-pill">🍬 Mithi Chinni</div>
+                <div class="nickname-pill">❤️ Babu</div>
+                <div class="nickname-pill">👑 Sona</div>
+                <div class="nickname-pill">✨ Shona</div>
+                <div class="nickname-pill">🌸 Cutie Pie</div>
+                <div class="nickname-pill">🍯 Rasgulla</div>
+                <div class="nickname-pill">🥺 Mera Baccha</div>
+                <div class="nickname-pill">💖 Meri Jaan</div>
+                <div class="nickname-pill">💻 Tech Scholar Queen</div>
+                <div class="nickname-pill">🦾 My Pepper Potts</div>
+                <div class="nickname-pill">💙 Love You 3000</div>
+            </div>
+
+            <!-- Glowing Portrait Frame with Interactive Photo Slider -->
+            <div class="hero-photo-showcase">
+                <div class="hero-photo-frame">
+                    <div class="hero-photo-ring"></div>
+                    <div class="hero-photo-crown">👑</div>
+                    <button id="hero-prev-btn" class="hero-slider-btn prev" title="Previous Photo">❮</button>
+                    <div class="hero-photo-inner">
+                        <img id="hero-spotlight-img"
+                            src="https://lh3.googleusercontent.com/d/1eggvmffqQwg7Rwzj527Zb0rVoi_qKlPG"
+                            alt="Duniya Ki Sabse Pyari Smile — Mithi Chinni Komal 🌸" class="hero-photo-img">
+                        <div class="hero-photo-overlay-badge">
+                            <span id="hero-photo-badge-text">🌸 Radiant Queen</span>
+                        </div>
+                    </div>
+                    <button id="hero-next-btn" class="hero-slider-btn next" title="Next Photo">❯</button>
+                    <div class="floating-heart-bubble bubble-top-right">👑</div>
+                    <div class="floating-heart-bubble bubble-bottom-left">🍬</div>
+                </div>
+
+                <!-- Romantic Photo Caption Box -->
+                <div class="hero-photo-caption-box">
+                    <div id="hero-photo-title" class="hero-photo-title">Duniya Ki Sabse Pyari Smile — Mithi Chinni Komal
+                        🌸</div>
+                    <div class="hero-photo-nav-pill">
+                        <span id="hero-photo-counter">Photo 1 of 6</span> • <span>Babu's Favorite Moment ✨</span>
+                    </div>
+                </div>
+
+                <div class="hero-slider-dots">
+                    <span class="hero-slider-dot active" data-index="0"></span>
+                    <span class="hero-slider-dot" data-index="1"></span>
+                    <span class="hero-slider-dot" data-index="2"></span>
+                    <span class="hero-slider-dot" data-index="3"></span>
+                    <span class="hero-slider-dot" data-index="4"></span>
+                    <span class="hero-slider-dot" data-index="5"></span>
+                </div>
+            </div>
+
+            <!-- Love Meter Box -->
+            <div class="love-meter-box">
+                <div
+                    style="font-size: 1.1rem; font-weight: 700; color: var(--accent-gold); display: flex; align-items: center; justify-content: center; gap: 8px;">
+                    <span>💘 Love Compatibility Meter: Babu & Mithi Chinni</span>
+                </div>
+                <div class="love-meter-bar-container">
+                    <div class="love-meter-bar"></div>
+                </div>
+                <div style="font-size: 1.05rem; font-weight: 600; color: var(--text-soft);">
+                    Score: <span style="color: var(--accent-yellow); font-size: 1.3rem;">1000% INFINITE</span> — "Made
+                    For Each Other & Bound By Soul ❤️"
+                </div>
+            </div>
+
+            <p
+                style="max-width: 680px; margin: 25px auto 0; font-size: 1.18rem; color: var(--text-soft); line-height: 1.8;">
+                "In a universe of billions of stars, your light is the one that guides my heart. Happy Birthday, my
+                Mithi Chinni, my Babu, my Sona, my forever favorite human! 💖"
+            </p>
+        </section>
+
+                <!-- FAVORITE ROMANTIC SONGS SHOWCASE (MANN HO TOH PLAY KAREIN) -->
+        <div class="favorite-showcase-header">
+            <div class="showcase-badge">🎶 Favorite Songs Showcase (Komal & Babu's Jukebox) ✨</div>
+            <h2 class="showcase-title">Humare Favorite Romantic Bollywood Songs 💖</h2>
+            <p class="showcase-desc">Background mein aapka <strong>Special Dedication Song</strong> lagatar chal raha
+                hai 🍬. Agar aapka mann ho, toh yahan se aap apna koi bhi favorite song play karke sun sakti ho! 🥰</p>
+        </div>
+
+        <!-- QUICK MOOD JUKEBOX (Situation & Vibe Selectors) -->
+        <div class="mood-jukebox-bar">
+            <button class="btn-mood-chip active" data-song="0" title="Play Lifetime Promise (Aaj Se Teri)">
+                <span>💍</span>
+                <span>Aaj Se Teri (Padman)</span>
+            </button>
+            <button class="btn-mood-chip" data-song="1" title="Play Sweet & Romantic Vibe">
+                <span>🌸</span>
+                <span>Sweet & Romantic (Tum Ho Toh)</span>
+            </button>
+            <button class="btn-mood-chip" data-song="3" title="Play Cutest Mithi Chinni Adayein">
+                <span>🍬</span>
+                <span>Mithi Chinni Vibes (Fanniyar)</span>
+            </button>
+            <button class="btn-mood-chip" data-song="6" title="Play Heartfelt Love Confession">
+                <span>💌</span>
+                <span>Dil Ki Baatein (Ijazat)</span>
+            </button>
+            <button class="btn-mood-chip" data-song="7" title="Play Forever Soulmates Bond">
+                <span>♾️</span>
+                <span>Janam Janam (Soulmates)</span>
+            </button>
+        </div>
+
+        <!-- ROMANTIC SOUNDTRACK INTERLUDE: Aaj Se Teri (Padman • Arijit Singh) -->
+        <div class="music-interlude-section" data-song-index="0"
+            data-src="aaj-se-teri.mp3"
+            data-main-part="18">
+            <div class="music-interlude-card">
+                <div class="vinyl-disc-wrapper">
+                    <div class="vinyl-disc">
+                        <div class="vinyl-grooves"></div>
+                        <div class="vinyl-center-label">💍</div>
+                    </div>
+                    <div class="eq-bars">
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                    </div>
+                </div>
+
+                <div class="music-interlude-info">
+                    <div class="music-tag-badge">🎵 Track #0 • The Lifetime Promise of 'Aaj Se Teri' 💍✨</div>
+                    <h3 class="music-song-title">Aaj Se Teri <span
+                            style="font-size: 0.95rem; color: var(--accent-gold);">(Padman • Arijit Singh)</span></h3>
+                    <div class="music-artist-name">Singers / Music: Arijit Singh & Amit Trivedi (Akshay Kumar & Radhika
+                        Apte)</div>
+                    <div class="music-dedication-quote">
+                        "Aaj se teri saari galiyan meri ho gayi... aaj se mera ghar tera ho gaya! Meri pyari Mithi
+                        Chinni, meri har dua sirf tumse shuru aur tum par khatam hoti hai ❤️"
+                    </div>
+
+                    <div class="music-scrubber-row">
+                        <span class="music-time cur-time">0:00</span>
+                        <div class="music-progress-bar-bg" title="Click to seek">
+                            <div class="music-progress-bar-fill"></div>
+                        </div>
+                        <span class="music-time total-time">2:00</span>
+                    </div>
+
+                    <div class="music-action-row">
+                        <button class="btn-song-play" title="Play Aaj Se Teri">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">Play Song</span>
+                        </button>
+                        <button class="btn-song-mainpart" title="Jump to Main Part / Hook">
+                            <span>✨</span>
+                            <span>Main Part (36s)</span>
+                        </button>
+                    </div>
+                    <div class="music-mood-badge-wrap">
+                        <span class="music-mood-indicator">💍 Lifetime Bond</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROMANTIC SOUNDTRACK INTERLUDE: Tum Ho Toh -->
+        <div class="music-interlude-section" data-song-index="1"
+            data-src="tum-ho-toh.mp3"
+            data-main-part="24">
+            <div class="music-interlude-card">
+                <div class="vinyl-disc-wrapper">
+                    <div class="vinyl-disc">
+                        <div class="vinyl-grooves"></div>
+                        <div class="vinyl-center-label">💖</div>
+                    </div>
+                    <div class="eq-bars">
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                    </div>
+                </div>
+
+                <div class="music-interlude-info">
+                    <div class="music-tag-badge">🎵 Track #1 • The Magic of 'Tum Ho Toh' 💖</div>
+                    <h3 class="music-song-title">Tum Ho Toh <span
+                            style="font-size: 0.95rem; color: var(--accent-gold);">(Saiyaara)</span></h3>
+                    <div class="music-artist-name">Singers / Music: Vishal Mishra & Hansika Pareek</div>
+                    <div class="music-dedication-quote">
+                        "Jab se tum meri zindagi mein aayi ho meri Mithi Chinni, har lamha maano ek pyara sa khwaab ban
+                        gaya hai... ❤️"
+                    </div>
+
+                    <div class="music-scrubber-row">
+                        <span class="music-time cur-time">0:00</span>
+                        <div class="music-progress-bar-bg">
+                            <div class="music-progress-bar-fill"></div>
+                        </div>
+                        <span class="music-time total-time">2:00</span>
+                    </div>
+
+                    <div class="music-action-row">
+                        <button class="btn-song-play">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">Play Song</span>
+                        </button>
+                        <button class="btn-song-mainpart">
+                            <span>🔥 Play Main Part (Chorus) 💖</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- LIVE LIFE JOURNEY COUNTER (Since 22/09/2003) -->
+        <section class="life-counter-box glass-card">
+            <div class="counter-title-group">
+                <span class="quiz-badge">⏳ Live Life Ticker</span>
+                <h2 style="font-size: 1.8rem; margin: 8px 0 4px; color: var(--text-pure);">
+                    Celebrating Every Second Of Your Existence ✨
+                </h2>
+                <p style="color: var(--text-muted); font-size: 0.95rem;">
+                    Since 22nd September 2003, you have been making this universe infinitely more beautiful:
+                </p>
+            </div>
+
+            <!-- Top Tier: 2 Grand Milestones -->
+            <div class="counter-grid-highlights">
+                <div class="counter-unit-card featured">
+                    <div id="counter-years" class="counter-value">22</div>
+                    <div class="counter-label">Years of Grace & Cuteness 👑</div>
+                </div>
+                <div class="counter-unit-card featured">
+                    <div id="counter-days" class="counter-value">8,397</div>
+                    <div class="counter-label">Days of Spreading Magic ✨</div>
+                </div>
+            </div>
+
+            <!-- Bottom Tier: 3 Live Heartbeat Tickers -->
+            <div class="counter-grid-live">
+                <div class="counter-unit-card">
+                    <div id="counter-hours" class="counter-value">2,01,549</div>
+                    <div class="counter-label">Hours of Smiles 🌸</div>
+                </div>
+                <div class="counter-unit-card">
+                    <div id="counter-minutes" class="counter-value">1,20,93,000+</div>
+                    <div class="counter-label">Minutes Blessed 🍬</div>
+                </div>
+                <div class="counter-unit-card">
+                    <div id="counter-seconds" class="counter-value">72,55,80,000+</div>
+                    <div class="counter-label">Seconds Loved Forever 💖</div>
+                </div>
+            </div>
+
+            <div class="counter-tagline">
+                "And my love for you keeps multiplying with every heartbeat... ❤️"
+            </div>
+        </section>
+
+                <!-- ROMANTIC SOUNDTRACK INTERLUDE: Aitbaar / Chand Mera Dil -->
+        <div class="music-interlude-section" data-song-index="2"
+            data-src="aitbaar.mp3"
+            data-main-part="26">
+            <div class="music-interlude-card">
+                <div class="vinyl-disc-wrapper">
+                    <div class="vinyl-disc">
+                        <div class="vinyl-grooves"></div>
+                        <div class="vinyl-center-label">💖</div>
+                    </div>
+                    <div class="eq-bars">
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                    </div>
+                </div>
+
+                <div class="music-interlude-info">
+                    <div class="music-tag-badge">🎵 Track #2 • Pure Soul Connection 🌙</div>
+                    <h3 class="music-song-title">Aitbaar / Chand Mera Dil <span
+                            style="font-size: 0.95rem; color: var(--accent-gold);">(Chand Mera Dil)</span></h3>
+                    <div class="music-artist-name">Singers / Music: Faheem Abdullah & Sachin-Jigar</div>
+                    <div class="music-dedication-quote">
+                        "Tumhari aankhon ka noor aur tumhari baaton par mera bepanah aitbaar... Pehli nazar se hamesha
+                        ke liye ✨"
+                    </div>
+
+                    <div class="music-scrubber-row">
+                        <span class="music-time cur-time">0:00</span>
+                        <div class="music-progress-bar-bg">
+                            <div class="music-progress-bar-fill"></div>
+                        </div>
+                        <span class="music-time total-time">2:00</span>
+                    </div>
+
+                    <div class="music-action-row">
+                        <button class="btn-song-play">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">Play Song</span>
+                        </button>
+                        <button class="btn-song-mainpart">
+                            <span>🔥 Play Main Part (Chorus) 💖</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- OUR ROMANTIC JOURNEY / HUMARI KAHANI TIMELINE -->
+        <section class="timeline-section glass-card">
+            <span class="quiz-badge">💫 Our Love Story</span>
+            <h2 style="font-size: 2.2rem; margin: 10px 0 6px; color: var(--text-pure);">
+                Humari Kahani: Har Lamha Khaas Hai 📖❤️
+            </h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem; max-width: 650px; margin: 0 auto;">
+                Komal, tum meri zindagi mein sirf aayi nahi, balki meri poori duniya ko hamesha ke liye khoobsurat bana
+                diya:
+            </p>
+
+            <div class="timeline-container">
+                <!-- Milestone 1 -->
+                <div class="timeline-node">
+                    <div class="timeline-dot">🌟</div>
+                    <div class="timeline-card">
+                        <span class="timeline-date-tag">Chapter 1 • Destiny's Gift</span>
+                        <h3 class="timeline-title">Pehli Mulakat & Woh Pehli Nazar ✨</h3>
+                        <p class="timeline-desc">
+                            Jab pehli baar tumhari aankhon mein dekha tha, usi pal dil ne kaha tha ki yeh ladki meri
+                            zindagi ka sabse anmol hissa banne aayi hai.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Milestone 2 -->
+                <div class="timeline-node">
+                    <div class="timeline-dot">🌙</div>
+                    <div class="timeline-card">
+                        <span class="timeline-date-tag">Chapter 2 • Late Night Talks</span>
+                        <h3 class="timeline-title">Der Raat Ki Baatein & Muskaan 📱</h3>
+                        <p class="timeline-desc">
+                            Ghanton baatein karna, ek doosre ki choti-choti baaton par hasna, aur phone rakhne ke baad
+                            bhi tumhare khayalon mein khoye rehna... Tum meri sabse pyari aadat ban gayi.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Milestone 3 -->
+                <div class="timeline-node">
+                    <div class="timeline-dot">🍬</div>
+                    <div class="timeline-card">
+                        <span class="timeline-date-tag">Chapter 3 • Nicknames & Pure Love</span>
+                        <h3 class="timeline-title">Becoming Meri Mithi Chinni 🥰</h3>
+                        <p class="timeline-desc">
+                            "Babu", "Sona", "Cutie", "Rasgulla" aur sabse khaas "Mithi Chinni"! Tumhara yeh meetha sa
+                            naam meri har dua aur har saans ka hissa ban gaya.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Milestone 4 -->
+                <div class="timeline-node">
+                    <div class="timeline-dot">💻</div>
+                    <div class="timeline-card">
+                        <span class="timeline-date-tag">Chapter 4 • Ambitions & Pride</span>
+                        <h3 class="timeline-title">Tech Scholar & Coding Queen 👑</h3>
+                        <p class="timeline-desc">
+                            Tumhara B.Tech CSE ka passion, coding aur web development ka jazba... Babu ko hamesha bohot
+                            garv hota hai ki meri Mithi Chinni itni brilliant aur hardworking hai!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Milestone 5 -->
+                <div class="timeline-node">
+                    <div class="timeline-dot">🎂</div>
+                    <div class="timeline-card">
+                        <span class="timeline-date-tag">Chapter 5 • Today's Royal Celebration</span>
+                        <h3 class="timeline-title">22 September 2003 ➔ 23rd Birthday ✨</h3>
+                        <p class="timeline-desc">
+                            Khuda ne 22/09/2003 ko ek angel zameen par bheji thi jiske aane se meri zindagi mukammal ho
+                            gayi. Happy 23rd Birthday, my queen!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Milestone 6 -->
+                <div class="timeline-node">
+                    <div class="timeline-dot">💍</div>
+                    <div class="timeline-card">
+                        <span class="timeline-date-tag">Chapter 6 • The Infinite Future</span>
+                        <h3 class="timeline-title">Forever & Always Wada 🌹</h3>
+                        <p class="timeline-desc">
+                            Chahe waqt kaisa bhi ho, Babu ka pyaar apni Mithi Chinni ke liye hamesha 1000% infinite
+                            rahega. Janam-janam tak sirf aur sirf tumhara!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- ROMANTIC SOUNDTRACK INTERLUDE: Ishq De Fanniyar (Female Version) -->
+        <div class="music-interlude-section" data-song-index="3"
+            data-src="ishq-de-fanniyar.mp3"
+            data-main-part="16">
+            <div class="music-interlude-card">
+                <div class="vinyl-disc-wrapper">
+                    <div class="vinyl-disc">
+                        <div class="vinyl-grooves"></div>
+                        <div class="vinyl-center-label">💖</div>
+                    </div>
+                    <div class="eq-bars">
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                    </div>
+                </div>
+
+                <div class="music-interlude-info">
+                    <div class="music-tag-badge">🎵 Track #3 • Cutest Adayein & Naughty Smile 🌸</div>
+                    <h3 class="music-song-title">Ishq De Fanniyar (Female Version) <span
+                            style="font-size: 0.95rem; color: var(--accent-gold);">(Fukrey Returns)</span></h3>
+                    <div class="music-artist-name">Singers / Music: Jyotica Tangri</div>
+                    <div class="music-dedication-quote">
+                        "Meri Mithi Chinni ki natkhat shararatein aur wo meethi aadaayein jo Babu ka dil har baar chura
+                        leti hain! 🥰🍬"
+                    </div>
+
+                    <div class="music-scrubber-row">
+                        <span class="music-time cur-time">0:00</span>
+                        <div class="music-progress-bar-bg">
+                            <div class="music-progress-bar-fill"></div>
+                        </div>
+                        <span class="music-time total-time">2:00</span>
+                    </div>
+
+                    <div class="music-action-row">
+                        <button class="btn-song-play">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">Play Song</span>
+                        </button>
+                        <button class="btn-song-mainpart">
+                            <span>🔥 Play Main Part (Chorus) 💖</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- VIRTUAL 3D BIRTHDAY CAKE & CANDLE BLOW -->
+        <section class="cake-section glass-card">
+            <span class="quiz-badge">🕯️ Interactive Birthday Ritual</span>
+            <h2 style="font-size: 2rem; margin: 10px 0 6px; color: var(--text-pure);">
+                Make A Wish & Blow The Candles! 🎂
+            </h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem;">
+                Close your eyes, make the sweetest wish in your heart, and tap to blow:
+            </p>
+
+            <!-- 3D Birthday Cake Structure -->
+            <div class="cake-stage">
+                <!-- Candles -->
+                <div class="candles-row">
+                    <div class="candle-item">
+                        <div class="candle-wick"></div>
+                        <div class="flame"></div>
+                        <div class="smoke-puff"></div>
+                    </div>
+                    <div class="candle-item">
+                        <div class="candle-wick"></div>
+                        <div class="flame"></div>
+                        <div class="smoke-puff"></div>
+                    </div>
+                    <div class="candle-item">
+                        <div class="candle-wick"></div>
+                        <div class="flame"></div>
+                        <div class="smoke-puff"></div>
+                    </div>
+                </div>
+
+                <!-- Tier 1 (Top) -->
+                <div class="cake-tier cake-tier-top">
+                    <div class="cake-frosting-drip"></div>
+                </div>
+                <!-- Tier 2 (Middle) -->
+                <div class="cake-tier cake-tier-mid">
+                    <div class="cake-frosting-drip"></div>
+                </div>
+                <!-- Tier 3 (Bottom) -->
+                <div class="cake-tier cake-tier-bottom">
+                    <div class="cake-frosting-drip"></div>
+                </div>
+                <!-- Plate -->
+                <div class="cake-plate"></div>
+            </div>
+
+            <div id="cake-status" class="cake-status-msg">
+                Candles are glowing! Tap the button below or touch the flames to blow them out 🕯️
+            </div>
+
+            <div style="margin-top: 25px;">
+                <button id="btn-blow-candles" class="btn-romantic">
+                    <span>💨 Blow Out The Candles! 🎂</span>
+                </button>
+            </div>
+        </section>
+
+                <!-- ROMANTIC SOUNDTRACK INTERLUDE: Tujhko -->
+        <div class="music-interlude-section" data-song-index="4"
+            data-src="tujhko.mp3"
+            data-main-part="30">
+            <div class="music-interlude-card">
+                <div class="vinyl-disc-wrapper">
+                    <div class="vinyl-disc">
+                        <div class="vinyl-grooves"></div>
+                        <div class="vinyl-center-label">💖</div>
+                    </div>
+                    <div class="eq-bars">
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                    </div>
+                </div>
+
+                <div class="music-interlude-info">
+                    <div class="music-tag-badge">🎵 Track #4 • Dil Ki Dua & Devotion 👑</div>
+                    <h3 class="music-song-title">Tujhko <span
+                            style="font-size: 0.95rem; color: var(--accent-gold);">(Cocktail 2)</span></h3>
+                    <div class="music-artist-name">Singers / Music: Arijit Singh</div>
+                    <div class="music-dedication-quote">
+                        "Tujhko jo paaya toh lagta hai khuda ne meri har ek mannat bina maange hi poori kar di meri
+                        jaan... ✨"
+                    </div>
+
+                    <div class="music-scrubber-row">
+                        <span class="music-time cur-time">0:00</span>
+                        <div class="music-progress-bar-bg">
+                            <div class="music-progress-bar-fill"></div>
+                        </div>
+                        <span class="music-time total-time">2:00</span>
+                    </div>
+
+                    <div class="music-action-row">
+                        <button class="btn-song-play">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">Play Song</span>
+                        </button>
+                        <button class="btn-song-mainpart">
+                            <span>🔥 Play Main Part (Chorus) 💖</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- POP-THE-BALLOONS COMPLIMENT ARENA -->
+        <section class="balloons-arena glass-card">
+            <span class="quiz-badge">🎈 Tap To Pop</span>
+            <h2 style="font-size: 2rem; margin: 10px 0 6px; color: var(--text-pure);">
+                Secret Compliment Balloons 💖
+            </h2>
+            <p style="color: var(--text-muted); font-size: 1.02rem;">
+                Each balloon holds a secret reason why Komal is so unconditionally loved. Tap to pop!
+            </p>
+
+            <div class="balloons-flex">
+                <div class="balloon-item">
+                    <div class="balloon-body" style="background: linear-gradient(135deg, #ff4d79, #ff758c);">
+                        <div class="balloon-highlight"></div>
+                        <span>💌</span>
+                    </div>
+                    <div class="balloon-knot" style="background: #ff4d79;"></div>
+                    <div class="balloon-string"></div>
+                </div>
+
+                <div class="balloon-item">
+                    <div class="balloon-body" style="background: linear-gradient(135deg, #ffd166, #ffb86c);">
+                        <div class="balloon-highlight"></div>
+                        <span>👑</span>
+                    </div>
+                    <div class="balloon-knot" style="background: #ffd166;"></div>
+                    <div class="balloon-string"></div>
+                </div>
+
+                <div class="balloon-item">
+                    <div class="balloon-body" style="background: linear-gradient(135deg, #c56cf0, #7d5fff);">
+                        <div class="balloon-highlight"></div>
+                        <span>✨</span>
+                    </div>
+                    <div class="balloon-knot" style="background: #c56cf0;"></div>
+                    <div class="balloon-string"></div>
+                </div>
+
+                <div class="balloon-item">
+                    <div class="balloon-body" style="background: linear-gradient(135deg, #0be881, #05c46b);">
+                        <div class="balloon-highlight"></div>
+                        <span>🌸</span>
+                    </div>
+                    <div class="balloon-knot" style="background: #0be881;"></div>
+                    <div class="balloon-string"></div>
+                </div>
+
+                <div class="balloon-item">
+                    <div class="balloon-body" style="background: linear-gradient(135deg, #18dcff, #17c0eb);">
+                        <div class="balloon-highlight"></div>
+                        <span>💖</span>
+                    </div>
+                    <div class="balloon-knot" style="background: #18dcff;"></div>
+                    <div class="balloon-string"></div>
+                </div>
+
+                <div class="balloon-item">
+                    <div class="balloon-body" style="background: linear-gradient(135deg, #ff9ff3, #f368e0);">
+                        <div class="balloon-highlight"></div>
+                        <span>💎</span>
+                    </div>
+                    <div class="balloon-knot" style="background: #ff9ff3;"></div>
+                    <div class="balloon-string"></div>
+                </div>
+            </div>
+        </section>
+
+                <!-- ROMANTIC SOUNDTRACK INTERLUDE: Humdum -->
+        <div class="music-interlude-section" data-song-index="5"
+            data-src="humdum.mp3"
+            data-main-part="27">
+            <div class="music-interlude-card">
+                <div class="vinyl-disc-wrapper">
+                    <div class="vinyl-disc">
+                        <div class="vinyl-grooves"></div>
+                        <div class="vinyl-center-label">💖</div>
+                    </div>
+                    <div class="eq-bars">
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                    </div>
+                </div>
+
+                <div class="music-interlude-info">
+                    <div class="music-tag-badge">🎵 Track #5 • My Best Friend & Humdum 🤝</div>
+                    <h3 class="music-song-title">Humdum <span
+                            style="font-size: 0.95rem; color: var(--accent-gold);">(Savi)</span></h3>
+                    <div class="music-artist-name">Singers / Music: Vishal Mishra & Raj Shekhar</div>
+                    <div class="music-dedication-quote">
+                        "Tum sirf mera pyaar nahi, meri sabse pyari dost, meri humsafar aur meri taqat ho meri Sona ❤️"
+                    </div>
+
+                    <div class="music-scrubber-row">
+                        <span class="music-time cur-time">0:00</span>
+                        <div class="music-progress-bar-bg">
+                            <div class="music-progress-bar-fill"></div>
+                        </div>
+                        <span class="music-time total-time">2:00</span>
+                    </div>
+
+                    <div class="music-action-row">
+                        <button class="btn-song-play">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">Play Song</span>
+                        </button>
+                        <button class="btn-song-mainpart">
+                            <span>🔥 Play Main Part (Chorus) 💖</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- 3 MYSTERY BIRTHDAY GIFT BOXES -->
+        <section class="gifts-section glass-card">
+            <span class="quiz-badge">🎁 Tap To Unwrap</span>
+            <h2 style="font-size: 2.2rem; margin: 10px 0 6px; color: var(--text-pure);">
+                3 Mystery Birthday Gift Boxes For Mithi Chinni 🎀
+            </h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem; max-width: 650px; margin: 0 auto;">
+                Babu has packed 3 special surprises just for Komal. Click each box to unwrap:
+            </p>
+
+            <div class="gift-boxes-grid">
+                <!-- Gift Box 1 -->
+                <div class="gift-box-card" data-gift="1">
+                    <div class="gift-icon">🎁</div>
+                    <h3 class="gift-title">Mystery Box #1</h3>
+                    <div class="gift-hint">🎀 Tap to unwrap surprise!</div>
+                    <div class="gift-opened-content">
+                        <div style="font-size: 2.5rem; margin-bottom: 8px;">🫂💖💋</div>
+                        <h4 style="color: var(--accent-yellow); font-size: 1.2rem; margin-bottom: 6px;">Box of Infinite
+                            Cuddles & Kisses</h4>
+                        <p style="color: var(--text-soft); font-size: 0.95rem; line-height: 1.5;">
+                            Valid for unlimited tight hugs, forehead kisses, and warm cuddles whenever my Mithi Chinni
+                            feels tired, sad, or just wants to feel loved! ❤️
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Gift Box 2 -->
+                <div class="gift-box-card" data-gift="2">
+                    <div class="gift-icon">👑</div>
+                    <h3 class="gift-title">Mystery Box #2</h3>
+                    <div class="gift-hint">✨ Tap to unwrap surprise!</div>
+                    <div class="gift-opened-content">
+                        <div style="font-size: 2.5rem; margin-bottom: 8px;">💳🍕🍫</div>
+                        <h4 style="color: var(--accent-yellow); font-size: 1.2rem; margin-bottom: 6px;">Babu's VIP
+                            Privilege Card</h4>
+                        <p style="color: var(--text-soft); font-size: 0.95rem; line-height: 1.5;">
+                            Cardholder: <strong>Komal Rathor</strong><br>
+                            Benefits: Unlimited chocolate & food treats, instant shopping approval, "0-Gussa Immunity
+                            Pass", and 1 Wish of your choice granted unconditionally! 🛍️✨
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Gift Box 3 -->
+                <div class="gift-box-card" data-gift="3">
+                    <div class="gift-icon">📜</div>
+                    <h3 class="gift-title">Mystery Box #3</h3>
+                    <div class="gift-hint">🌹 Tap to unwrap surprise!</div>
+                    <div class="gift-opened-content">
+                        <div style="font-size: 2.5rem; margin-bottom: 8px;">🎵📝🌸</div>
+                        <h4 style="color: var(--accent-yellow); font-size: 1.2rem; margin-bottom: 6px;">A Special
+                            Birthday Shayari For Sona</h4>
+                        <p style="color: var(--text-soft); font-size: 0.95rem; line-height: 1.6; font-style: italic;">
+                            "Khuda kare har saal yeh din aaye,<br>
+                            Meri Mithi Chinni dher saari khushiyan paaye.<br>
+                            Aapki smile se roshan hai meri har subah,<br>
+                            Aapko janamdin ki dher saari duayein!" 🎂❤️
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- ROMANTIC SOUNDTRACK INTERLUDE: Ijazat -->
+        <div class="music-interlude-section" data-song-index="6"
+            data-src="ijazat.mp3"
+            data-main-part="20">
+            <div class="music-interlude-card">
+                <div class="vinyl-disc-wrapper">
+                    <div class="vinyl-disc">
+                        <div class="vinyl-grooves"></div>
+                        <div class="vinyl-center-label">💖</div>
+                    </div>
+                    <div class="eq-bars">
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                    </div>
+                </div>
+
+                <div class="music-interlude-info">
+                    <div class="music-tag-badge">🎵 Track #6 • Soulful Confession 💌</div>
+                    <h3 class="music-song-title">Ijazat <span
+                            style="font-size: 0.95rem; color: var(--accent-gold);">(One Night Stand)</span></h3>
+                    <div class="music-artist-name">Singers / Music: Arijit Singh & Meet Bros</div>
+                    <div class="music-dedication-quote">
+                        "Dil ne har ek dhadkan mein sirf aur sirf tumse bepanah pyaar karne ki ijazat li hai... 🌹"
+                    </div>
+
+                    <div class="music-scrubber-row">
+                        <span class="music-time cur-time">0:00</span>
+                        <div class="music-progress-bar-bg">
+                            <div class="music-progress-bar-fill"></div>
+                        </div>
+                        <span class="music-time total-time">2:00</span>
+                    </div>
+
+                    <div class="music-action-row">
+                        <button class="btn-song-play">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">Play Song</span>
+                        </button>
+                        <button class="btn-song-mainpart">
+                            <span>🔥 Play Main Part (Chorus) 💖</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- WAX-SEALED ROMANTIC LOVE LETTER -->
+        <section class="letter-section">
+            <span class="quiz-badge">💌 From The Depths Of My Heart</span>
+            <h2 style="font-size: 2.2rem; margin: 10px 0 6px; color: var(--text-pure);">
+                A Handwritten Letter For Komal 🌹
+            </h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem;">
+                Tap on the golden wax seal to break the lock and unfold the letter:
+            </p>
+
+            <div class="envelope-wrapper">
+                <div id="envelope-box" class="envelope-box">
+                    <div id="envelope-flap" class="envelope-flap"></div>
+                    <div class="envelope-pocket"></div>
+                    <div id="wax-seal" class="wax-seal" title="Click to open letter">K</div>
+                </div>
+
+                <!-- Unfolded Letter Paper -->
+                <div id="letter-paper" class="letter-paper">
+                    <div class="letter-header">Dearest Komal (Meri Mithi Chinni) 🍬,</div>
+                    <div class="letter-body">
+                        <p>
+                            <strong>Happy Birthday, Meri Mithi Chinni, Babu, Sona, Meri Jaan! ❤️</strong>
+                        </p>
+                        <p>
+                            22 September 2003 ko khuda ne is duniya ko sabse anmol aur meetha tohfa diya — <em>MERI
+                                MITHI CHINNI</em>.
+                            Aaj jab main tumhari taraf dekhta hoon, toh bas yahi lagta hai ki kash main lafzon mein
+                            bayaan kar pata ki tum mere liye kitni ahemiyat rakhti ho. Tum meri zindagi ki wo meethas ho
+                            jiske bina meri har subah aur har shaam pheeki hai.
+                        </p>
+                        <p>
+                            Tumhari wo masoom si hasi, wo aankhon ki chamak jab tum kisi cheez ko lekar excited hoti ho,
+                            aur tumhara yeh passionate B.Tech CSE scholar & web developer banne ka jazba... Har ek cheez
+                            mujhe baar-baar meri pyari Babu ke pyaar mein gira deti hai.
+                        </p>
+                        <p>
+                            Tum sirf meri pasand nahi, meri aadat, meri dua, aur meri poori duniya ho meri Sona. Tumhari
+                            ek smile mere sabse kharab din ko bhi sabse khoobsurat bana deti hai. Main wada karta hoon
+                            ki tumhare har sapne mein, har mushkil mein, aur har khushi mein hamesha tumhare saath khada
+                            rahunga.
+                        </p>
+                        <p>
+                            Is 23rd Birthday par khuda meri Mithi Chinni ko dher sari kamyabi, sukoon, bepanah khushiyan
+                            aur wo sab kuch de jo tumhara pyara sa dil chahta hai.
+                        </p>
+                        <p>
+                            Hamesha aisi hi muskurati rehna meri Mithi Chinni, meri Babu, mera pyara baccha! 🥰🍬
+                        </p>
+                    </div>
+                    <div class="letter-sign">
+                        Forever & Always Your Babu,<br>
+                        ❤️ With 1000% Infinite Love ❤️
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- "REASONS WHY YOU ARE SO SPECIAL" 3D FLIP CARDS -->
+        <section class="reasons-section glass-card">
+            <span class="quiz-badge">✨ 6 Reasons Out Of A Million</span>
+            <h2 style="font-size: 2.2rem; margin: 10px 0 6px; color: var(--text-pure);">
+                Why You Mean The World To Me 🌸
+            </h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem;">
+                Tap or hover on each card to reveal the secret behind it:
+            </p>
+
+            <div class="reasons-grid">
+                <!-- Card 1 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">🥰</div>
+                            <div class="card-title">Your Magical Smile</div>
+                            <div class="card-hint">Tap to flip ✨</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="card-back-text">
+                                Jab tum hasti ho na, toh maano poori duniya mein phool khil jaate hain. Tumhari smile
+                                meri sabse favorite cheez hai!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">💻</div>
+                            <div class="card-title">Tech Scholar & Queen</div>
+                            <div class="card-hint">Tap to flip ✨</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="card-back-text">
+                                Beauty with Brains! B.Tech Computer Science scholar, passionate coder, and a future tech
+                                leader. I am so endlessly proud of you!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">✨</div>
+                            <div class="card-title">Sparkle In Your Eyes</div>
+                            <div class="card-hint">Tap to flip ✨</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="card-back-text">
+                                Tumhari aankhein aisi hain jisme dekhte hi waqt tham jata hai. Sitaron jaisi roshni aur
+                                behad masoomiyat!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">💖</div>
+                            <div class="card-title">Your Pure Heart</div>
+                            <div class="card-hint">Tap to flip ✨</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="card-back-text">
+                                Tumhara dil itna saaf aur caring hai. Tum sabka khayal rakhti ho aur sabke chehre par
+                                khushi lati ho.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">📱</div>
+                            <div class="card-title">Favorite Notification</div>
+                            <div class="card-hint">Tap to flip ✨</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="card-back-text">
+                                Phone mein hazaron notifications aayein, par jab tak tumhara message na aaye, din
+                                adhoora rehta hai.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">🌟</div>
+                            <div class="card-title">Simply Grateful For YOU</div>
+                            <div class="card-hint">Tap to flip ✨</div>
+                        </div>
+                        <div class="flip-card-back">
+                            <p class="card-back-text">
+                                "Simply grateful for where I am now" — Har ek lamha tumhare saath zindagi ka sabse
+                                khubsurat tohfa hai!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- ROMANTIC SOUNDTRACK INTERLUDE: Tera Mera Rishta (New Version) -->
+        <div class="music-interlude-section" data-song-index="7"
+            data-src="tera-mera-rishta.mp3"
+            data-main-part="30">
+            <div class="music-interlude-card">
+                <div class="vinyl-disc-wrapper">
+                    <div class="vinyl-disc">
+                        <div class="vinyl-grooves"></div>
+                        <div class="vinyl-center-label">💖</div>
+                    </div>
+                    <div class="eq-bars">
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                    </div>
+                </div>
+
+                <div class="music-interlude-info">
+                    <div class="music-tag-badge">🎵 Track #7 • Eternal Soulmate Bond 💍</div>
+                    <h3 class="music-song-title">Tera Mera Rishta (New Version) <span
+                            style="font-size: 0.95rem; color: var(--accent-gold);">(Awarapan 2)</span></h3>
+                    <div class="music-artist-name">Singers / Music: Mithoon, Saaj Bhatt & Mustafa</div>
+                    <div class="music-dedication-quote">
+                        "Tera mera rishta roohon ka hai meri pyari Babu, jise waqt ya sadiyan bhi kabhi nahi badal
+                        sakti... ♾️❤️"
+                    </div>
+
+                    <div class="music-scrubber-row">
+                        <span class="music-time cur-time">0:00</span>
+                        <div class="music-progress-bar-bg">
+                            <div class="music-progress-bar-fill"></div>
+                        </div>
+                        <span class="music-time total-time">2:00</span>
+                    </div>
+
+                    <div class="music-action-row">
+                        <button class="btn-song-play">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">Play Song</span>
+                        </button>
+                        <button class="btn-song-mainpart">
+                            <span>🔥 Play Main Part (Chorus) 💖</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- 100 THINGS I LOVE ABOUT YOU (Secret Reason Dispenser) -->
+        <section class="dispenser-section glass-card">
+            <span class="quiz-badge">💖 Infinite Love Vault</span>
+            <h2 style="font-size: 2.2rem; margin: 10px 0 6px; color: var(--text-pure);">
+                100 Reasons Why Babu Loves Mithi Chinni 🍬
+            </h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem; max-width: 650px; margin: 0 auto;">
+                Press the magical button to draw a secret heartfelt reason from Babu's personal diary:
+            </p>
+
+            <div class="dispenser-box">
+                <div style="font-size: 3rem; margin-bottom: 10px; animation: pulseGlow 2s infinite;">💌</div>
+                <div class="dispenser-display" id="dispenser-display">
+                    <div class="dispenser-number" id="dispenser-number">Reason #1 of 100</div>
+                    <div class="dispenser-text" id="dispenser-text">
+                        "Kyunki tumhari ek smile dekh kar meri saari thakan aur pareshani gayab ho jaati hai... ❤️"
+                    </div>
+                </div>
+                <button id="btn-draw-reason" class="btn-romantic">
+                    <span>💖 Draw Secret Reason ➔</span>
+                </button>
+            </div>
+        </section>
+
+                <!-- ROMANTIC SOUNDTRACK INTERLUDE: O Sanam -->
+        <div class="music-interlude-section" data-song-index="8"
+            data-src="o-sanam.mp3"
+            data-main-part="34">
+            <div class="music-interlude-card">
+                <div class="vinyl-disc-wrapper">
+                    <div class="vinyl-disc">
+                        <div class="vinyl-grooves"></div>
+                        <div class="vinyl-center-label">💖</div>
+                    </div>
+                    <div class="eq-bars">
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                    </div>
+                </div>
+
+                <div class="music-interlude-info">
+                    <div class="music-tag-badge">🎵 Track #8 • Tere Bina Jeena Nahi 🌹</div>
+                    <h3 class="music-song-title">O Sanam <span
+                            style="font-size: 0.95rem; color: var(--accent-gold);">(Single)</span></h3>
+                    <div class="music-artist-name">Singers / Music: Akhil Sachdeva</div>
+                    <div class="music-dedication-quote">
+                        "Tere bina yeh dil kisi aur cheez mein lagta hi nahi meri Sona... Hamesha aur har pal sirf tera
+                        banke rahunga! 💕"
+                    </div>
+
+                    <div class="music-scrubber-row">
+                        <span class="music-time cur-time">0:00</span>
+                        <div class="music-progress-bar-bg">
+                            <div class="music-progress-bar-fill"></div>
+                        </div>
+                        <span class="music-time total-time">2:00</span>
+                    </div>
+
+                    <div class="music-action-row">
+                        <button class="btn-song-play">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">Play Song</span>
+                        </button>
+                        <button class="btn-song-mainpart">
+                            <span>🔥 Play Main Part (Chorus) 💖</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- BABU'S 7 SACRED BIRTHDAY VOWS (7 Wade) -->
+        <section class="vows-section glass-card">
+            <span class="quiz-badge">🌹 Lifetime Promises</span>
+            <h2 style="font-size: 2.2rem; margin: 10px 0 6px; color: var(--text-pure);">
+                Babu's 7 Sacred Birthday Vows To Mithi Chinni 📜❤️
+            </h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem; max-width: 680px; margin: 0 auto;">
+                On this 23rd birthday (22/09/2003), here are 7 unbreakable promises written with pure love:
+            </p>
+
+            <div class="vows-scroll">
+                <div class="vows-header">
+                    <div style="font-size: 2.2rem; margin-bottom: 6px;">💍✨🌹</div>
+                    <h3 style="font-family: var(--font-heading); font-size: 2rem; color: #b31238; margin: 0;">
+                        7 Pavitra Wadey Meri Komal Ke Liye
+                    </h3>
+                    <p style="font-size: 1rem; color: #5a3854; margin-top: 5px;">
+                        (Solemn Birthday Vows by Babu)
+                    </p>
+                </div>
+
+                <ul class="vows-list">
+                    <li class="vow-item">
+                        <span class="vow-num">1</span>
+                        <span>Main hamesha tumhari muskaan ki wajah banunga, kabhi bhi tumhari aankhon mein aansu nahi
+                            aane doonga.</span>
+                    </li>
+                    <li class="vow-item">
+                        <span class="vow-num">2</span>
+                        <span>Jab bhi meri Mithi Chinni gussa hogi, main ego chhod kar pehle 'Sorry Babu' bolunga aur
+                            gale lagaunga.</span>
+                    </li>
+                    <li class="vow-item">
+                        <span class="vow-num">3</span>
+                        <span>Tumhare B.Tech CSE scholar aur coding ke har sapne mein main tumhara sabse bada supporter
+                            banunga.</span>
+                    </li>
+                    <li class="vow-item">
+                        <span class="vow-num">4</span>
+                        <span>Chahe kitni bhi busy life ho, tumhare liye hamesha waqt nikalunga aur tumhari har baat
+                            dhyan se sununga.</span>
+                    </li>
+                    <li class="vow-item">
+                        <span class="vow-num">5</span>
+                        <span>Tumhari favorite chocolates, ice-creams aur treats se tumhara mood hamesha sweet
+                            rakhunga.</span>
+                    </li>
+                    <li class="vow-item">
+                        <span class="vow-num">6</span>
+                        <span>Har din tumhe yeh mehsoos karaunga ki tum is poori duniya mein mere liye sabse anmol aur
+                            khoobsurat ho.</span>
+                    </li>
+                    <li class="vow-item">
+                        <span class="vow-num">7</span>
+                        <span>Aaj, kal, aur aane wale har janam mein sirf aur sirf tumse bepanah aur saccha pyaar
+                            karunga! 💍❤️</span>
+                    </li>
+                </ul>
+
+                <div class="vows-footer">
+                    Sealed with eternal love & kisses — Babu ❤️
+                </div>
+            </div>
+        </section>
+
+        <!-- SPECIAL IRON MAN SECTION: I Love You 3000 & Arc Reactor -->
+        <section class="arc-reactor-section glass-card" id="iron-man-3000">
+            <div class="iron-man-badge">
+                <span>🦾 STARK INDUSTRIES • SPECIAL ROMANTIC PROTOCOL ⚡</span>
+            </div>
+
+            <h2 class="section-title">
+                <span class="gradient-text-ironman">Proof That Babu Has A Heart ❤️</span>
+                <span class="iron-man-subtitle">"I Love You 3000 — Across Every Multiverse &amp; Timeline" 🌌</span>
+            </h2>
+
+            <p class="iron-man-lead">
+                Tony Stark ke paas uski armor aur Arc Reactor thi, lekin mere paas meri sabse badi taakat aur duniya ki sabse pyari khushi ho tum. 
+                Jaise Morgan ne Tony se kaha tha, waise hi mere dil ki har ek beat sirf yahi bolti hai:
+            </p>
+
+            <!-- The Glowing Interactive Arc Reactor -->
+            <div class="arc-reactor-container" id="arc-reactor-interactive" title="Click to pulse Arc Reactor Power!">
+                <div class="arc-reactor-housing">
+                    <div class="reactor-outer-ring"></div>
+                    <div class="reactor-coils-wrap">
+                        <div class="reactor-coil" style="--coil-deg: 0deg;"></div>
+                        <div class="reactor-coil" style="--coil-deg: 45deg;"></div>
+                        <div class="reactor-coil" style="--coil-deg: 90deg;"></div>
+                        <div class="reactor-coil" style="--coil-deg: 135deg;"></div>
+                        <div class="reactor-coil" style="--coil-deg: 180deg;"></div>
+                        <div class="reactor-coil" style="--coil-deg: 225deg;"></div>
+                        <div class="reactor-coil" style="--coil-deg: 270deg;"></div>
+                        <div class="reactor-coil" style="--coil-deg: 315deg;"></div>
+                    </div>
+                    <div class="reactor-inner-ring">
+                        <div class="reactor-triangle"></div>
+                    </div>
+                    <div class="reactor-core-disc">
+                        <div class="reactor-core-glow"></div>
+                        <div class="reactor-core-text">
+                            <span class="reactor-val">3000</span>
+                            <span class="reactor-lbl">LOVE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reactor-engraving">
+                    ★ PROOF THAT BABU HAS A HEART — KEPT ALIVE BY KOMAL ★
+                </div>
+                <div class="reactor-tap-hint">
+                    👆 Click the Arc Reactor to energize Babu's Love! ⚡
+                </div>
+            </div>
+
+            <!-- Iconic Dialogue Cards -->
+            <div class="iron-man-dialogue-grid">
+                <div class="dialogue-quote-card">
+                    <div class="dialogue-speaker">
+                        <span class="speaker-avatar">👧</span>
+                        <div class="speaker-info">
+                            <span class="speaker-name">Morgan Stark</span>
+                            <span class="speaker-role">Avengers: Endgame</span>
+                        </div>
+                    </div>
+                    <div class="dialogue-quote">
+                        "I love you tons."
+                    </div>
+                </div>
+
+                <div class="dialogue-quote-card stark-card">
+                    <div class="dialogue-speaker">
+                        <span class="speaker-avatar">🦾</span>
+                        <div class="speaker-info">
+                            <span class="speaker-name">Tony Stark (Iron Man)</span>
+                            <span class="speaker-role">Earth's Greatest Hero</span>
+                        </div>
+                    </div>
+                    <div class="dialogue-quote">
+                        "I love you 3000."
+                    </div>
+                </div>
+
+                <div class="dialogue-quote-card babu-card">
+                    <div class="dialogue-speaker">
+                        <span class="speaker-avatar">💖</span>
+                        <div class="speaker-info">
+                            <span class="speaker-name">Babu to his Komal</span>
+                            <span class="speaker-role">Forever &amp; Always</span>
+                        </div>
+                    </div>
+                    <div class="dialogue-quote">
+                        "Tum meri Pepper Potts ho, meri sabse badi strength aur zindagi ka sabse pyara sukoon. I Love You 3000 &amp; Beyond Infinity, Meri Mithi Chinni! 🍬❤️"
+                    </div>
+                </div>
+            </div>
+
+            <!-- Special Stark HUD & Vow Box -->
+            <div class="ironman-hud-box">
+                <div class="stark-hud-header">
+                    <span class="hud-status"><span class="hud-dot"></span> FRIDAY PROTOCOL: ACTIVE</span>
+                    <span class="hud-target">TARGET: KOMAL (MERI JAAN) 👑</span>
+                </div>
+                <div class="hud-content">
+                    <div class="hud-metric-row">
+                        <span class="hud-label">⚡ Love Output:</span>
+                        <span class="hud-value">3000% (Infinite &amp; Overclocked)</span>
+                    </div>
+                    <div class="hud-metric-row">
+                        <span class="hud-label">🛡️ Stark Armor Protocol:</span>
+                        <span class="hud-value">Shield her smile forever &amp; protect her happiness at all costs</span>
+                    </div>
+                    <div class="hud-metric-row">
+                        <span class="hud-label">💍 Pepper Potts Vow:</span>
+                        <span class="hud-value">"Tony couldn't imagine life without Pepper, and Babu cannot live a single moment without Komal."</span>
+                    </div>
+                </div>
+                <div class="ironman-action-buttons">
+                    <button id="btn-charge-reactor" class="btn-stark-action charge-btn">
+                        <span class="btn-icon">⚡</span> Charge Arc Reactor (Love 3000%)
+                    </button>
+                    <button id="btn-pepper-vow" class="btn-stark-action vow-btn">
+                        <span class="btn-icon">💍</span> Pepper Potts Promise
+                    </button>
+                </div>
+                <div id="reactor-status-msg" class="reactor-status-toast"></div>
+            </div>
+        </section>
+
+                <!-- ROMANTIC SOUNDTRACK INTERLUDE: Barbaad -->
+        <div class="music-interlude-section" data-song-index="9"
+            data-src="barbaad.mp3"
+            data-main-part="28">
+            <div class="music-interlude-card">
+                <div class="vinyl-disc-wrapper">
+                    <div class="vinyl-disc">
+                        <div class="vinyl-grooves"></div>
+                        <div class="vinyl-center-label">💖</div>
+                    </div>
+                    <div class="eq-bars">
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                        <span class="eq-bar"></span>
+                    </div>
+                </div>
+
+                <div class="music-interlude-info">
+                    <div class="music-tag-badge">🎵 Track #9 • Grand Romantic Celebration 🎆</div>
+                    <h3 class="music-song-title">Barbaad <span
+                            style="font-size: 0.95rem; color: var(--accent-gold);">(Saiyaara)</span></h3>
+                    <div class="music-artist-name">Singers / Music: Jubin Nautiyal & The Rish</div>
+                    <div class="music-dedication-quote">
+                        "Tumhare ishq mein khokar zindagi ki sabse badi daulat mil gayi. Happy 23rd Birthday, Meri Mithi
+                        Chinni! 🎂💖"
+                    </div>
+
+                    <div class="music-scrubber-row">
+                        <span class="music-time cur-time">0:00</span>
+                        <div class="music-progress-bar-bg">
+                            <div class="music-progress-bar-fill"></div>
+                        </div>
+                        <span class="music-time total-time">2:00</span>
+                    </div>
+
+                    <div class="music-action-row">
+                        <button class="btn-song-play">
+                            <span class="play-icon">▶</span>
+                            <span class="play-text">Play Song</span>
+                        </button>
+                        <button class="btn-song-mainpart">
+                            <span>🔥 Play Main Part (Chorus) 💖</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- POLAROID MEMORY WALL -->
+        <section class="polaroid-section">
+            <span class="quiz-badge">📸 Stolen Moments & Memories</span>
+            <h2 style="font-size: 2.2rem; margin: 10px 0 6px; color: var(--text-pure);">
+                Komal's Precious Moments 🖼️
+            </h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem;">
+                Click on any polaroid snapshot to view it in full glowing glory:
+            </p>
+
+            <div class="polaroid-gallery">
+                <!-- Polaroid 1 -->
+                <div class="polaroid-item" data-id="1" data-caption="Simply Gorgeous ✨"
+                    data-note="Meri Mithi Chinni, jab bhi main tumhari yeh tasveer dekhta hoon, dil bas yahi kehta hai ki khuda ne tumhe bohot fursat se banaya hai. Tumhari aankhon ki masoomiyat meri zindagi ka sabse pyara sukoon hai.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/14fiBHjwWnY3yPehhfuB1BoLtxPLVhlGo"
+                                    alt="Simply Gorgeous ✨" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Simply Gorgeous ✨</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #1</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Meri Mithi Chinni, jab bhi main tumhari yeh tasveer dekhta hoon, dil bas yahi kehta hai
+                                ki khuda ne tumhe bohot fursat se banaya hai. Tumhari aankhon ki masoomiyat meri zindagi
+                                ka sabse pyara sukoon hai."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 2 -->
+                <div class="polaroid-item" data-id="2" data-caption="Million Dollar Smile 💖"
+                    data-note="Yeh smile! Yeh wahi smile hai jo mere sabse kharab din ko bhi sabse roshan aur meetha bana deti hai. Zindagi bhar bas aise hi muskurati rehna meri Sona.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1xGOhN7rGX5ngE3Rh8cqKz8accxkMc4Kc"
+                                    alt="Million Dollar Smile 💖" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Million Dollar Smile 💖</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #2</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Yeh smile! Yeh wahi smile hai jo mere sabse kharab din ko bhi sabse roshan aur meetha
+                                bana deti hai. Zindagi bhar bas aise hi muskurati rehna meri Sona."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 3 -->
+                <div class="polaroid-item" data-id="3" data-caption="Pure Grace & Beauty 🌸"
+                    data-note="Grace, elegance aur bepanah sadgi. Tumhare saath chalna meri zindagi ka sabse khubsurat safar hai meri Mithi Chinni.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1_Ei9MaB_p9vmtiVUf507gFYCKaNda4Uq"
+                                    alt="Pure Grace & Beauty 🌸" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Pure Grace & Beauty 🌸</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #3</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Grace, elegance aur bepanah sadgi. Tumhare saath chalna meri zindagi ka sabse khubsurat
+                                safar hai meri Mithi Chinni."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 4 -->
+                <div class="polaroid-item" data-id="4" data-caption="Sunshine Girl ☀️"
+                    data-note="Sunshine girl! Jahan bhi tum hoti ho, wahan sirf khushiyan aur positivity phailti hai. Tum meri zindagi ka sabse pyara ujala ho.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1Tn8dF8GaHAzwalHVGoqARp8MK7uEh2XV"
+                                    alt="Sunshine Girl ☀️" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Sunshine Girl ☀️</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #4</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Sunshine girl! Jahan bhi tum hoti ho, wahan sirf khushiyan aur positivity phailti hai.
+                                Tum meri zindagi ka sabse pyara ujala ho."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 5 -->
+                <div class="polaroid-item" data-id="5" data-caption="Queen Vibes 👑"
+                    data-note="Queen vibes! Royal, graceful aur meri sabse pyari rani. 22 September 2003 ko sach mein ek pari aayi thi zameen par.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1QOmvPKk2DaXdoywEKTo3789fPOZwm-Io"
+                                    alt="Queen Vibes 👑" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Queen Vibes 👑</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #5</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Queen vibes! Royal, graceful aur meri sabse pyari rani. 22 September 2003 ko sach mein
+                                ek pari aayi thi zameen par."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 6 -->
+                <div class="polaroid-item" data-id="6" data-caption="Golden Moments 🍂"
+                    data-note="Yeh lamha mere dil mein hamesha ke liye kaid hai. Tumhare saath bitaaya har ek second meri zindagi ka sabse keemti pal hai.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1yj0FtE7FaIXHhFcERA44_uQAh9OCc2-n"
+                                    alt="Golden Moments 🍂" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Golden Moments 🍂</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #6</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Yeh lamha mere dil mein hamesha ke liye kaid hai. Tumhare saath bitaaya har ek second
+                                meri zindagi ka sabse keemti pal hai."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 7 -->
+                <div class="polaroid-item" data-id="7" data-caption="Cutest Smile 🥰"
+                    data-note="Duniya ki sabse cute smile! Tum jab sharmati ho aur muskurati ho, mera dil wahin tham sa jata hai meri Babu.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1KQASGRYggHxORoDUZnsnYT6h5RO09ml_"
+                                    alt="Cutest Smile 🥰" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Cutest Smile 🥰</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #7</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Duniya ki sabse cute smile! Tum jab sharmati ho aur muskurati ho, mera dil wahin tham
+                                sa jata hai meri Babu."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 8 -->
+                <div class="polaroid-item" data-id="8" data-caption="Meri Mithi Chinni 🍬"
+                    data-note="Meri Mithi Chinni! Tum meri subah ki pehli chai ki mithaas aur raat ka aakhri sukoon ho. Tumse bepanah pyaar karta hoon.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1s9JZwnSAf0_wzraoSDBBk-y3rXg1Voll"
+                                    alt="Meri Mithi Chinni 🍬" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Meri Mithi Chinni 🍬</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #8</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Meri Mithi Chinni! Tum meri subah ki pehli chai ki mithaas aur raat ka aakhri sukoon
+                                ho. Tumse bepanah pyaar karta hoon."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 9 -->
+                <div class="polaroid-item" data-id="9" data-caption="Dreamy & Divine 💫"
+                    data-note="Sapno jaisi khoobsurat! Tum meri zindagi ki sabse haseen haqeeqat ho meri Sona. Tum ho toh sab kuch mukammal hai.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1apW8ie8SW_IEosutFDXbAEUX14DnAgSS"
+                                    alt="Dreamy & Divine 💫" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Dreamy & Divine 💫</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #9</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Sapno jaisi khoobsurat! Tum meri zindagi ki sabse haseen haqeeqat ho meri Sona. Tum ho
+                                toh sab kuch mukammal hai."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 10 -->
+                <div class="polaroid-item" data-id="10" data-caption="Heartstopper 🌹"
+                    data-note="Dil ki dhadkan ho tum Komal. Is chehre par jo noor hai, wo chand se bhi zyada khoobsurat hai. Hamesha mere dil ke kareeb rahogi.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1dTpCmyN1zfl6VSXt8wwgGMwf6IHSMPXV"
+                                    alt="Heartstopper 🌹" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Heartstopper 🌹</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #10</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Dil ki dhadkan ho tum Komal. Is chehre par jo noor hai, wo chand se bhi zyada
+                                khoobsurat hai. Hamesha mere dil ke kareeb rahogi."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 11 -->
+                <div class="polaroid-item" data-id="11" data-caption="Forever My Favorite 🥺"
+                    data-note="Forever my favorite human! Kitni bhi ladaiyan ho jayein, gussa kitna bhi ho, aakhri mein bas tumhari godi mein sar rakh kar sukoon milta hai.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1JWR0R9UiUubviGim3FU3lCD48V7AbJkJ"
+                                    alt="Forever My Favorite 🥺" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Forever My Favorite 🥺</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #11</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Forever my favorite human! Kitni bhi ladaiyan ho jayein, gussa kitna bhi ho, aakhri
+                                mein bas tumhari godi mein sar rakh kar sukoon milta hai."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 12 -->
+                <div class="polaroid-item" data-id="12" data-caption="Cherished Forever ❤️"
+                    data-note="Cherished forever! Yeh yaadein hamare pyaar ki gawah hain. Hamari kahani sabse pyari prem kahani hai jo kabhi khatam nahi hogi.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1ZRdh_WrVJ0TJf62OMMdSXuRD0DssC6Lx"
+                                    alt="Cherished Forever ❤️" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Cherished Forever ❤️</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #12</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Cherished forever! Yeh yaadein hamare pyaar ki gawah hain. Hamari kahani sabse pyari
+                                prem kahani hai jo kabhi khatam nahi hogi."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 13 -->
+                <div class="polaroid-item" data-id="13" data-caption="Pure Sweetness 🌸"
+                    data-note="Har lamha jo tumhare bina guzarta hai pheeka lagta hai. Tum meri zindagi ki wo mithaas ho jo har gham ko bhula deti hai. Happy Birthday meri jaan!">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/18QDsA84HhAmLiZxVHNfT1p3hUKL37sPt"
+                                    alt="Pure Sweetness 🌸" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Pure Sweetness 🌸</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #13</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Har lamha jo tumhare bina guzarta hai pheeka lagta hai. Tum meri zindagi ki wo mithaas
+                                ho jo har gham ko bhula deti hai. Happy Birthday meri jaan!"
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 14 -->
+                <div class="polaroid-item" data-id="14" data-caption="Beautiful Soul ✨"
+                    data-note="Aapki saadgi hi aapki sabse badi khoobsurti hai. Ek sacchi, nek dil aur bepanah pyari ladki jise paakar main duniya ka sabse khushkismat insaan hoon.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1ZAA-NUNsQ63tNuK1ERbCluEKf8TECTdz"
+                                    alt="Beautiful Soul ✨" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Beautiful Soul ✨</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #14</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Aapki saadgi hi aapki sabse badi khoobsurti hai. Ek sacchi, nek dil aur bepanah pyari
+                                ladki jise paakar main duniya ka sabse khushkismat insaan hoon."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 15 -->
+                <div class="polaroid-item" data-id="15" data-caption="Sweet & Charming 💖"
+                    data-note="Tumhari choti-choti baatein, tumhari pyaari aadaayein aur tumhara yeh chulbula andaaz... Main har din tumhare pyaar mein naye sire se girta hoon.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1Pq-osTH4YLOh1tUoI9ZZtDZZ4kmdmN5H"
+                                    alt="Sweet & Charming 💖" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Sweet & Charming 💖</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #15</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Tumhari choti-choti baatein, tumhari pyaari aadaayein aur tumhara yeh chulbula
+                                andaaz... Main har din tumhare pyaar mein naye sire se girta hoon."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 16 -->
+                <div class="polaroid-item" data-id="16" data-caption="Radiant Charm 💫"
+                    data-note="Komal, tum sirf meri pasand nahi, meri aadat aur meri dua ho. Khuda kare tumhari zindagi hamesha aisi hi chamakti rahe jaise tumhari aankhein.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1Xfvnlzk65evtvHZbn2PsODG_1pHYn1hB"
+                                    alt="Radiant Charm 💫" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Radiant Charm 💫</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #16</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Komal, tum sirf meri pasand nahi, meri aadat aur meri dua ho. Khuda kare tumhari
+                                zindagi hamesha aisi hi chamakti rahe jaise tumhari aankhein."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 17 -->
+                <div class="polaroid-item" data-id="17" data-caption="Grace & Poise 👑"
+                    data-note="Queen of my heart! B.Tech CSE scholar, brilliant mind aur sabse khoobsurat dil... Tum par mujhe bohot garv hai meri Babu.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1eggvmffqQwg7Rwzj527Zb0rVoi_qKlPG"
+                                    alt="Grace & Poise 👑" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Grace & Poise 👑</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #17</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Queen of my heart! B.Tech CSE scholar, brilliant mind aur sabse khoobsurat dil... Tum
+                                par mujhe bohot garv hai meri Babu."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 18 -->
+                <div class="polaroid-item" data-id="18" data-caption="Angelic Aura 🌸"
+                    data-note="Ek angel jaisi lagti ho tum yahan. Tumhara saath hona hi mere liye sabse bada blessing hai. I love you to the moon and back!">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1A_SM0vGJKBa-JIGVY-3jEC1LMu7YFOia"
+                                    alt="Angelic Aura 🌸" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Angelic Aura 🌸</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #18</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Ek angel jaisi lagti ho tum yahan. Tumhara saath hona hi mere liye sabse bada blessing
+                                hai. I love you to the moon and back!"
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 19 -->
+                <div class="polaroid-item" data-id="19" data-caption="Playful Vibe 🥺"
+                    data-note="Yeh cute si shaitani aur bachpana hamesha zinda rakhna meri Mithi Chinni. Tumhara yeh chhota sa baccha wala roop mujhe sabse zyada pyara lagta hai.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1iLugHtMzizXcXTFyHeS_hwB7DGCV6VQj"
+                                    alt="Playful Vibe 🥺" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Playful Vibe 🥺</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #19</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Yeh cute si shaitani aur bachpana hamesha zinda rakhna meri Mithi Chinni. Tumhara yeh
+                                chhota sa baccha wala roop mujhe sabse zyada pyara lagta hai."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 20 -->
+                <div class="polaroid-item" data-id="20" data-caption="Sparkling Eyes ✨"
+                    data-note="In aankhon mein meri poori duniya basti hai. Jab tum mujhe pyaar se dekhti ho, lagta hai jaise waqt wahin thehar gaya ho.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1gfc2FuVKzY0GSRRTstVBm3BGUREz830n"
+                                    alt="Sparkling Eyes ✨" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Sparkling Eyes ✨</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #20</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "In aankhon mein meri poori duniya basti hai. Jab tum mujhe pyaar se dekhti ho, lagta
+                                hai jaise waqt wahin thehar gaya ho."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 21 -->
+                <div class="polaroid-item" data-id="21" data-caption="Picture Perfect 📸"
+                    data-note="Picture perfect! Par sach kahoon toh camera tumhari asal khoobsurti ka 1% bhi capture nahi kar sakta, kyunki tum dil se laakho guna zyada sundar ho.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1TsovNtvE8J93y3rCq2yiUWn2oz_KgqL3"
+                                    alt="Picture Perfect 📸" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Picture Perfect 📸</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #21</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Picture perfect! Par sach kahoon toh camera tumhari asal khoobsurti ka 1% bhi capture
+                                nahi kar sakta, kyunki tum dil se laakho guna zyada sundar ho."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 22 -->
+                <div class="polaroid-item" data-id="22" data-caption="Dazzling Queen 👑"
+                    data-note="Dazzling & confident! Meri Sona jab tayyar hoti hai, toh poori mehfil mein sirf wahi nazar aati hai. Meri personal supermodel!">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1ngy3owMz8eIhen8TeiznghzJL2_AhNk9"
+                                    alt="Dazzling Queen 👑" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Dazzling Queen 👑</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #22</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Dazzling & confident! Meri Sona jab tayyar hoti hai, toh poori mehfil mein sirf wahi
+                                nazar aati hai. Meri personal supermodel!"
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 23 -->
+                <div class="polaroid-item" data-id="23" data-caption="Magical Vibe ✨"
+                    data-note="Magical aura! Tumhare aaspas ek alag hi positivity hoti hai jo sabko khush kar deti hai. Khuda tumhari har khwahish poori kare!">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/17-C7FSW9jgPizaDbcCSVQqfnYTC9TCvF"
+                                    alt="Magical Vibe ✨" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Magical Vibe ✨</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #23</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Magical aura! Tumhare aaspas ek alag hi positivity hoti hai jo sabko khush kar deti
+                                hai. Khuda tumhari har khwahish poori kare!"
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 24 -->
+                <div class="polaroid-item" data-id="24" data-caption="Innocent & Cute 🌸"
+                    data-note="Innocence at its peak! Tumhari masoom muskaan dekh kar sari duniya ke dukh bhool jata hoon. Hamesha aisi hi rehna meri baccha.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1AblCUvAehPeIfU0WYnK3364_fkLNJP6b"
+                                    alt="Innocent & Cute 🌸" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Innocent & Cute 🌸</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #24</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Innocence at its peak! Tumhari masoom muskaan dekh kar sari duniya ke dukh bhool jata
+                                hoon. Hamesha aisi hi rehna meri baccha."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 25 -->
+                <div class="polaroid-item" data-id="25" data-caption="Stolen Glance 👀"
+                    data-note="Stolen glance! Jab tum bina bataye meri taraf dekhti ho aur muskurati ho, wo moment mere dil mein hamesha ke liye bas jata hai.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1r5GldkYFz_s6WtZ7LtU7dsxUd2DaW3XC"
+                                    alt="Stolen Glance 👀" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Stolen Glance 👀</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #25</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Stolen glance! Jab tum bina bataye meri taraf dekhti ho aur muskurati ho, wo moment
+                                mere dil mein hamesha ke liye bas jata hai."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 26 -->
+                <div class="polaroid-item" data-id="26" data-caption="Candid Loveliness 💕"
+                    data-note="Candid and real! Tum jaisi ho, bas waisi hi perfect ho. Mujhe tumhari har ek ada se beinteha mohabbat hai Komal.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1ONvH56C-LJlzcSI4BSfQWEy8RrqHqUYY"
+                                    alt="Candid Loveliness 💕" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Candid Loveliness 💕</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #26</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Candid and real! Tum jaisi ho, bas waisi hi perfect ho. Mujhe tumhari har ek ada se
+                                beinteha mohabbat hai Komal."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 27 -->
+                <div class="polaroid-item" data-id="27" data-caption="My Heart's Beat 💓"
+                    data-note="My heart's beat! Har baar jab dil dhadakta hai, bas tumhara naam leta hai — Komal, meri Mithi Chinni, meri Babu.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1HAh1tLfesN8624xdwuQatKECnfZjjjTW"
+                                    alt="My Heart's Beat 💓" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">My Heart's Beat 💓</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #27</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "My heart's beat! Har baar jab dil dhadakta hai, bas tumhara naam leta hai — Komal, meri
+                                Mithi Chinni, meri Babu."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Polaroid 28 -->
+                <div class="polaroid-item" data-id="28" data-caption="Always My Number One 💎"
+                    data-note="Always my Number One! Zindagi ke har mod par, har khushi aur har mushkil mein, main hamesha tumhare saath khada hoon meri jaan.">
+                    <div class="polaroid-card-3d">
+                        <!-- Front of Polaroid -->
+                        <div class="polaroid-front">
+                            <div class="washi-tape"></div>
+                            <div class="polaroid-img-box">
+                                <img src="https://lh3.googleusercontent.com/d/1MouWvzoZ1uHqhVrWePUubDobrGqLws0-"
+                                    alt="Always My Number One 💎" class="polaroid-img">
+                            </div>
+                            <div class="polaroid-caption">Always My Number One 💎</div>
+                            <div class="polaroid-flip-hint">💌 Tap for Love Note ➔</div>
+                        </div>
+                        <!-- Back of Polaroid: Love Note -->
+                        <div class="polaroid-back">
+                            <div class="love-note-header">
+                                <span>💌 LOVE NOTE #28</span>
+                                <span class="love-note-stamp">🍬</span>
+                            </div>
+                            <div class="love-note-content">
+                                "Always my Number One! Zindagi ke har mod par, har khushi aur har mushkil mein, main
+                                hamesha tumhare saath khada hoon meri jaan."
+                            </div>
+                            <div class="love-note-sign">Forever Yours, Babu ❤️</div>
+                            <div class="love-note-flip-back">🖼️ Flip Back To Photo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             SPECIAL BIRTHDAY WISHES WALL: AKASH, RAUSHAN, ABHISHEK, ADITYA, ASHIK, PANDIT & SQUAD
+             ========================================================================== -->
+        <section class="friends-wishes-section" id="friends-wishes">
+            <div class="friends-wishes-container">
+                <div class="section-header text-center" style="text-align: center; margin-bottom: 25px;">
+                    <span class="quiz-badge">💌 Yaaron Ki Taraf Se Wishes 🎉</span>
+                    <h2 class="section-title text-gradient-gold"
+                        style="font-size: 2.3rem; margin: 12px 0 8px; color: var(--text-pure);">
+                        Special Birthday Wishes For Bhabhi Ji 🌸✨
+                    </h2>
+                    <p class="section-subtitle"
+                        style="color: var(--text-muted); font-size: 1.05rem; max-width: 680px; margin: 0 auto 25px;">
+                        Akash & Sweety, Raushan, Abhishek, Aditya, Ashik, Pandit Ji aur poori gang ne apni pyari <strong>Bhabhi
+                            Ji (Mithi Chinni Komal)</strong> ke liye dil se wishes bheji hain — <em>Bhabhi hogi
+                            sabki!</em> ❤️👑
+                    </p>
+
+                    <!-- Filter Tabs -->
+                    <div class="wishes-filter-bar">
+                        <button class="wish-filter-chip active" data-filter="all">🌟 All Wishes (9)</button>
+                        <button class="wish-filter-chip" data-filter="boys">⚡ The Boys Gang</button>
+                        <button class="wish-filter-chip" data-filter="blessings">🕉️ Pandit Ji & Blessings</button>
+                        <button class="wish-filter-chip" data-filter="squad">💖 Squad & Sakhis</button>
+                    </div>
+                </div>
+
+                <!-- Wishes Cards Grid -->
+                <div class="friends-wishes-grid" id="friends-wishes-grid">
+
+                    <!-- 1. Akash -->
+                    <div class="friend-wish-card glass-card" data-category="boys">
+                        <div class="wish-card-glow"></div>
+                        <div class="wish-card-top">
+                            <div class="friend-avatar-wrapper avatar-akash">
+                                <span class="friend-avatar-icon">⚡</span>
+                                <span class="friend-badge-verified" title="Verified Homie">✓</span>
+                            </div>
+                            <div class="friend-info">
+                                <h3 class="friend-name">Akash <span class="friend-verified-star">⭐</span></h3>
+                                <span class="friend-role-badge role-boys">The OG Homie ⚡</span>
+                            </div>
+                            <span class="wish-time-badge">12:00 AM • First Wish</span>
+                        </div>
+                        <div class="wish-card-message">
+                            <span class="quote-mark">“</span>
+                            <p>Happy 23rd Birthday <strong>Bhabhi Ji!</strong> 🎂 Hum sab doston ki sabse pyaari Bhabhi
+                                ko janamdin ki dher saari shubhkamnayein! Babu par apna poora hukumat banaye rakhiyega
+                                Bhabhi! Babu se grand party lene ka poora haq hai aapka! Hum sab devaron ki taraf se
+                                aapko dher saara aadar aur pyaar! Bhabhi Ji Zindabad! 🎉✨</p>
+                        </div>
+                        <div class="wish-card-footer">
+                            <div class="wish-reaction-tag">
+                                <span>🎉 Bhabhi Ji Zindabad!</span>
+                            </div>
+                            <button class="btn-like-wish" data-likes="48">
+                                <span class="like-icon">❤️</span> <span class="like-text">Love</span> <span
+                                    class="like-count">48</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 2. Sweety (Akash Ki GF) -->
+                    <div class="friend-wish-card glass-card" data-category="squad boys">
+                        <div class="wish-card-glow"></div>
+                        <div class="wish-card-top">
+                            <div class="friend-avatar-wrapper avatar-sweety">
+                                <span class="friend-avatar-icon">🎀</span>
+                                <span class="friend-badge-verified" title="Verified Sakhi">✓</span>
+                            </div>
+                            <div class="friend-info">
+                                <h3 class="friend-name">Sweety <span class="friend-verified-star">⭐</span></h3>
+                                <span class="friend-role-badge role-sweety">Akash Ki GF & Pyari Sakhi 🌸</span>
+                            </div>
+                            <span class="wish-time-badge">12:01 AM • Special Love</span>
+                        </div>
+                        <div class="wish-card-message">
+                            <span class="quote-mark">“</span>
+                            <p>Happiest 23rd Birthday to my dearest <strong>Bhabhi Ji (Komal)!</strong> 🎂💖 Akash
+                                humesha bolte rehta hai ki hamari Bhabhi kitni pyaari, sweet aur caring hain! Aap dono
+                                (Babu & Bhabhi) ki jodi sach mein sabse best aur rab ne banayi jodi hai, bilkul perfect!
+                                Bhagwan kare aapki life mein hamesha bohot saari khushiyan, pyaar, shopping aur endless
+                                surprises bhare rahein. Akash aur meri taraf se aapko janamdin ki dher saari
+                                shubhkamnayein aur warmest love Bhabhi Ji! Party mein milte hain! Stay beautiful,
+                                glowing & blessed forever! 🌸✨💕</p>
+                        </div>
+                        <div class="wish-card-footer">
+                            <div class="wish-reaction-tag">
+                                <span>🌸 Akash & Sweety Ka Pyaar!</span>
+                            </div>
+                            <button class="btn-like-wish" data-likes="76">
+                                <span class="like-icon">❤️</span> <span class="like-text">Love</span> <span
+                                    class="like-count">76</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 3. Raushan -->
+                    <div class="friend-wish-card glass-card" data-category="boys">
+                        <div class="wish-card-glow"></div>
+                        <div class="wish-card-top">
+                            <div class="friend-avatar-wrapper avatar-raushan">
+                                <span class="friend-avatar-icon">🌟</span>
+                                <span class="friend-badge-verified" title="Verified Homie">✓</span>
+                            </div>
+                            <div class="friend-info">
+                                <h3 class="friend-name">Raushan <span class="friend-verified-star">⭐</span></h3>
+                                <span class="friend-role-badge role-boys">Cool Bro 😎</span>
+                            </div>
+                            <span class="wish-time-badge">12:02 AM • Birthday Eve</span>
+                        </div>
+                        <div class="wish-card-message">
+                            <span class="quote-mark">“</span>
+                            <p>Janamdin bohot bohot mubarak ho <strong>Bhabhi Ji!</strong> 🌸 Sach mein Babu ki life
+                                mein aake aapne uski poori zindagi roshan kar di hai. Hamesha haste rahiye Bhabhi! Party
+                                ka poora bill Babu se hi bharwana, hum sab devar aapke hi support mein hain! Have a
+                                blasting, unforgettable 23rd birthday Bhabhi Ji! 🥂🎂</p>
+                        </div>
+                        <div class="wish-card-footer">
+                            <div class="wish-reaction-tag">
+                                <span>🌸 Best Bhabhi Ever!</span>
+                            </div>
+                            <button class="btn-like-wish" data-likes="56">
+                                <span class="like-icon">❤️</span> <span class="like-text">Love</span> <span
+                                    class="like-count">56</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 3. Abhishek -->
+                    <div class="friend-wish-card glass-card" data-category="boys">
+                        <div class="wish-card-glow"></div>
+                        <div class="wish-card-top">
+                            <div class="friend-avatar-wrapper avatar-abhishek">
+                                <span class="friend-avatar-icon">🚀</span>
+                                <span class="friend-badge-verified" title="Verified Homie">✓</span>
+                            </div>
+                            <div class="friend-info">
+                                <h3 class="friend-name">Abhishek <span class="friend-verified-star">⭐</span></h3>
+                                <span class="friend-role-badge role-boys">Chill Maestro 🚀</span>
+                            </div>
+                            <span class="wish-time-badge">12:05 AM</span>
+                        </div>
+                        <div class="wish-card-message">
+                            <span class="quote-mark">“</span>
+                            <p>Happiest Birthday <strong>Bhabhi Ji!</strong> 🍬 Hamari pyari Mithi Chinni Bhabhi! Babu
+                                humesha kehta rehta hai ki hamari Bhabhi kitni sweet aur caring hain! God bless you with
+                                sound health, huge career achievements aur endless khushiyan Bhabhi Ji! Aaj aapka din
+                                hai, full queen treatment enjoy kijiye! 🎈✨</p>
+                        </div>
+                        <div class="wish-card-footer">
+                            <div class="wish-reaction-tag">
+                                <span>🍬 Mithi Chinni Bhabhi!</span>
+                            </div>
+                            <button class="btn-like-wish" data-likes="51">
+                                <span class="like-icon">❤️</span> <span class="like-text">Love</span> <span
+                                    class="like-count">51</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 4. Aditya -->
+                    <div class="friend-wish-card glass-card" data-category="boys">
+                        <div class="wish-card-glow"></div>
+                        <div class="wish-card-top">
+                            <div class="friend-avatar-wrapper avatar-aditya">
+                                <span class="friend-avatar-icon">👑</span>
+                                <span class="friend-badge-verified" title="Verified Homie">✓</span>
+                            </div>
+                            <div class="friend-info">
+                                <h3 class="friend-name">Aditya <span class="friend-verified-star">⭐</span></h3>
+                                <span class="friend-role-badge role-boys">Golden Heart 💫</span>
+                            </div>
+                            <span class="wish-time-badge">12:08 AM</span>
+                        </div>
+                        <div class="wish-card-message">
+                            <span class="quote-mark">“</span>
+                            <p>Wishing our sweetest <strong>Bhabhi Ji</strong> the happiest, most blessed 23rd Birthday!
+                                💫 Bhabhi Ji, aapki pyaari si smile hamesha aise hi barkaraar rahe. Bhagwan kare aapki
+                                har ek wish poori ho! Babu aur aapki jodi hamesha aisi hi cute aur unbreakable bani
+                                rahe! Enjoy your day to the fullest Bhabhi! 💐🍰</p>
+                        </div>
+                        <div class="wish-card-footer">
+                            <div class="wish-reaction-tag">
+                                <span>💫 Devar Squad Respect!</span>
+                            </div>
+                            <button class="btn-like-wish" data-likes="44">
+                                <span class="like-icon">❤️</span> <span class="like-text">Love</span> <span
+                                    class="like-count">44</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 5. Ashik -->
+                    <div class="friend-wish-card glass-card" data-category="boys">
+                        <div class="wish-card-glow"></div>
+                        <div class="wish-card-top">
+                            <div class="friend-avatar-wrapper avatar-ashik">
+                                <span class="friend-avatar-icon">🌹</span>
+                                <span class="friend-badge-verified" title="Verified Homie">✓</span>
+                            </div>
+                            <div class="friend-info">
+                                <h3 class="friend-name">Ashik <span class="friend-verified-star">⭐</span></h3>
+                                <span class="friend-role-badge role-boys">Shayar & Yaar 🌹</span>
+                            </div>
+                            <span class="wish-time-badge">12:11 AM</span>
+                        </div>
+                        <div class="wish-card-message">
+                            <span class="quote-mark">“</span>
+                            <p>Chand sitaron se khubsurat ho aapka har kal,<br>
+                                Khushiyon aur muskurahaton se mehke aapka har pal! 🌹<br>
+                                Janamdin ki tahe-dil se dher saari shubhkamnayein <strong>Bhabhi Ji!</strong> Hamare
+                                Babu ki kismat chamak gayi jo aap jaisi pyari Bhabhi mili humein. Sada muskurati rahiye
+                                Bhabhi Ji, stay blessed forever! 💖</p>
+                        </div>
+                        <div class="wish-card-footer">
+                            <div class="wish-reaction-tag">
+                                <span>🌹 Bhabhi Ke Liye Shayari!</span>
+                            </div>
+                            <button class="btn-like-wish" data-likes="67">
+                                <span class="like-icon">❤️</span> <span class="like-text">Love</span> <span
+                                    class="like-count">67</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 6. Pandit -->
+                    <div class="friend-wish-card glass-card card-special-pandit" data-category="blessings">
+                        <div class="wish-card-glow gold-glow"></div>
+                        <div class="wish-card-top">
+                            <div class="friend-avatar-wrapper avatar-pandit">
+                                <span class="friend-avatar-icon">🪔</span>
+                                <span class="friend-badge-verified gold-verified" title="Sacred Pandit Ji">🕉️</span>
+                            </div>
+                            <div class="friend-info">
+                                <h3 class="friend-name">Pandit Ji <span
+                                        class="friend-verified-star gold-star">🕉️</span></h3>
+                                <span class="friend-role-badge role-pandit">Aashirwad & Sanskar Master 🪔</span>
+                            </div>
+                            <span class="wish-time-badge gold-time">12:15 AM • Shubh Muhurat</span>
+                        </div>
+                        <div class="wish-card-message">
+                            <span class="quote-mark">“</span>
+                            <p><strong>Ayushman Bhava! Saubhagya-wati Bhava Bhabhi Ji! 🌸🪔</strong><br>
+                                Param-pita Parmeshwar ki dher saari kripa hamari Bhabhi Ji par hamesha barasti rahe.
+                                Babu ko daant lagane aur control mein rakhne ka poora aashirwad hai Bhabhi Ji aapko!
+                                Janamdin par khoob laddoo, rasgulla aur kaju katli baantiye. Babu aur Bhabhi ki jodi
+                                Janam-Janam tak amar rahe! Har Har Mahadev! 🙏✨</p>
+                        </div>
+                        <div class="wish-card-footer">
+                            <div class="wish-reaction-tag gold-tag">
+                                <span>🪔 Bhabhi Ji Ko Aashirwad!</span>
+                            </div>
+                            <button class="btn-like-wish btn-like-gold" data-likes="108">
+                                <span class="like-icon">🪔</span> <span class="like-text">Pranaam</span> <span
+                                    class="like-count">108</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 7. Rahul & The Squad Gang -->
+                    <div class="friend-wish-card glass-card" data-category="squad">
+                        <div class="wish-card-glow"></div>
+                        <div class="wish-card-top">
+                            <div class="friend-avatar-wrapper avatar-squad">
+                                <span class="friend-avatar-icon">🍻</span>
+                                <span class="friend-badge-verified" title="Verified Squad">✓</span>
+                            </div>
+                            <div class="friend-info">
+                                <h3 class="friend-name">Rahul & Babu's Boys <span class="friend-verified-star">⭐</span>
+                                </h3>
+                                <span class="friend-role-badge role-gang">The Whole Squad 🔥</span>
+                            </div>
+                            <span class="wish-time-badge">12:18 AM</span>
+                        </div>
+                        <div class="wish-card-message">
+                            <span class="quote-mark">“</span>
+                            <p>Happy Birthday to our one & only <strong>Bhabhi Ji!</strong> 🎂 Bhabhi toh hum sabki ek
+                                hi hain — hamari Mithi Chinni Komal Bhabhi! Babu humein party de ya na de, aapke
+                                birthday par grand celebration aur treat pakka honi chahiye! Hamesha Babu ko seedha
+                                rakhiye! Bhabhi Ji Ki Jai Ho! 🥳🍻</p>
+                        </div>
+                        <div class="wish-card-footer">
+                            <div class="wish-reaction-tag">
+                                <span>🔥 Bhabhi Ji Ki Jai Ho!</span>
+                            </div>
+                            <button class="btn-like-wish" data-likes="82">
+                                <span class="like-icon">❤️</span> <span class="like-text">Love</span> <span
+                                    class="like-count">82</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 8. Priya, Sneha & Sakhis -->
+                    <div class="friend-wish-card glass-card" data-category="squad">
+                        <div class="wish-card-glow"></div>
+                        <div class="wish-card-top">
+                            <div class="friend-avatar-wrapper avatar-sakhis">
+                                <span class="friend-avatar-icon">💄</span>
+                                <span class="friend-badge-verified" title="Verified Sakhis">✓</span>
+                            </div>
+                            <div class="friend-info">
+                                <h3 class="friend-name">Priya, Sneha & Girl Gang <span
+                                        class="friend-verified-star">⭐</span></h3>
+                                <span class="friend-role-badge role-girls">Queen's Sakhis 🌸</span>
+                            </div>
+                            <span class="wish-time-badge">12:22 AM</span>
+                        </div>
+                        <div class="wish-card-message">
+                            <span class="quote-mark">“</span>
+                            <p>Happy 23rd Birthday to the prettiest girl & cutest <strong>Bhabhi</strong> of the squad —
+                                Komal! 💖 Bhagwan kare tumhe duniya ki saari shopping, best makeup, cute outfits aur
+                                endless chocolates milein! Babu ko bolo full princess treatment de aaj! Glow bright
+                                babe, you are literally the sweetest! 💎✨</p>
+                        </div>
+                        <div class="wish-card-footer">
+                            <div class="wish-reaction-tag">
+                                <span>💖 Princess Bhabhi!</span>
+                            </div>
+                            <button class="btn-like-wish" data-likes="89">
+                                <span class="like-icon">❤️</span> <span class="like-text">Love</span> <span
+                                    class="like-count">89</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Interactive "Aap Bhi Apni Wish Add Karein!" Box -->
+                <div class="add-friend-wish-box glass-card">
+                    <div class="add-wish-header">
+                        <span class="add-wish-icon">✍️</span>
+                        <div>
+                            <h4 style="font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 4px;">Aap Bhi Apni
+                                Special Wish Drop Karein! 💌</h4>
+                            <p style="font-size: 0.92rem; color: var(--text-muted);">Apna naam aur Bhabhi Ji ke liye
+                                pyaara sa birthday message likhein, aur wall pe instantly post karein:</p>
+                        </div>
+                    </div>
+                    <div class="add-wish-form">
+                        <div class="add-wish-inputs-row">
+                            <input type="text" id="friend-wish-name" class="friend-input"
+                                placeholder="Aapka Naam (e.g. Rahul, Rohit, Devar ji...)">
+                            <select id="friend-wish-avatar" class="friend-select" title="Choose your vibe emoji">
+                                <option value="⚡">⚡ Bro / Energy</option>
+                                <option value="🌸" selected>🌸 Sweet & Caring</option>
+                                <option value="👑">👑 Royal / Queen</option>
+                                <option value="😎">😎 Cool Buddy</option>
+                                <option value="🪔">🪔 Sanskari Blessing</option>
+                                <option value="🥳">🥳 Party Animal</option>
+                                <option value="💖">💖 Forever Love</option>
+                            </select>
+                        </div>
+                        <textarea id="friend-wish-msg" class="friend-textarea" rows="2"
+                            placeholder="Bhabhi Ji ke liye aapka heartfelt birthday wish... ✨"></textarea>
+                        <button id="btn-post-friend-wish" class="btn-romantic"
+                            style="align-self: flex-start; padding: 12px 28px;">
+                            <span>💌 Post My Wish On Wall</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- MAKE A BIRTHDAY WISH (SHOOTING STAR GENERATOR) -->
+        <section class="wish-section">
+            <div class="wish-card glass-card">
+                <span class="quiz-badge">🌠 Wishing Well</span>
+                <h2 style="font-size: 2.2rem; margin: 10px 0 6px; color: var(--text-pure);">
+                    Make A Secret Birthday Wish 🌟
+                </h2>
+                <p style="color: var(--text-muted); font-size: 1.05rem;">
+                    Type your deepest dream or wish below, and let the shooting star carry it to the heavens:
+                </p>
+
+                <textarea id="wish-input" class="wish-input" rows="3"
+                    placeholder="Apna secret birthday wish yahan likhein... ✨"></textarea>
+
+                <div>
+                    <button id="btn-send-wish" class="btn-romantic">
+                        <span>🌠 Send Wish To The Stars</span>
+                    </button>
+                </div>
+
+                <div id="wishes-jar" class="wishes-jar">
+                    <div style="font-size: 1.1rem; font-weight: 600; color: var(--accent-gold); margin-bottom: 10px;">
+                        🏺 Komal's Star Wish Jar:
+                    </div>
+                    <div id="wishes-list"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- BALLOON COMPLIMENT MODAL POPUP -->
+    <div id="compliment-popup" class="compliment-popup">
+        <div id="compliment-emoji" class="compliment-emoji">💖</div>
+        <div id="compliment-text" class="compliment-text">
+            Komal, you are endlessly loved!
+        </div>
+        <button id="btn-close-compliment" class="btn-romantic" style="padding: 10px 25px; font-size: 0.95rem;">
+            <span>Awww, Thank You! 🥰</span>
+        </button>
+    </div>
+
+    <!-- POLAROID LIGHTBOX MODAL WITH PHOTO & LOVE NOTE -->
+    <div id="lightbox-modal" class="lightbox-modal">
+        <button id="lightbox-close" class="lightbox-close">&times;</button>
+        <div class="lightbox-container">
+            <div class="lightbox-photo-side">
+                <img id="lightbox-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E"
+                    alt="Zoomed Photo" class="lightbox-content">
+                <div id="lightbox-caption" class="lightbox-caption"></div>
+            </div>
+            <div class="lightbox-note-side">
+                <div class="lightbox-note-card">
+                    <div class="lightbox-note-badge">💌 Secret Love Note From Babu</div>
+                    <div id="lightbox-note-text" class="lightbox-note-text"></div>
+                    <div class="lightbox-note-sign">Forever & Always Yours, Babu ❤️</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="celebration-footer">
+        <p style="font-size: 1.15rem; margin-bottom: 8px;">
+            Crafted with infinite affection for <strong>Komal Rathor</strong> <span class="footer-heart">❤️</span>
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+            22nd September 2003 ➔ Always & Forever Special ✨
+        </p>
+    </footer>
+
+        <!-- Floating Live Lyrics Karaoke Subtitle Pill -->
+    <div id="floating-lyrics-pill" class="floating-lyrics-pill hidden">
+        <span>🎵</span>
+        <span id="lyrics-text">"Tum ho toh har lamha haseen lagta hai... 🎶❤️"</span>
+    </div>
+
+    <!-- ==========================================================================
+         FLOATING MASTER ROMANTIC JUKEBOX (Bottom Dock)
+         ========================================================================== -->
+    <div id="floating-master-player" class="floating-master-player collapsed">
+        <div class="floating-player-left">
+            <div class="floating-player-vinyl" id="master-player-vinyl">🎵</div>
+            <div class="floating-player-meta">
+                <div class="floating-player-title" id="master-player-title">Tum Ho Toh — Saiyaara</div>
+                <div class="floating-player-artist" id="master-player-artist">Vishal Mishra & Hansika Pareek</div>
+            </div>
+        </div>
+
+        <div class="floating-player-controls">
+            <button class="f-btn-ctrl" id="master-prev-btn" title="Previous Song">⏮</button>
+            <button class="f-btn-ctrl main-play" id="master-play-btn" title="Play / Pause">▶</button>
+            <button class="f-btn-ctrl" id="master-next-btn" title="Next Song">⏭</button>
+            <button class="f-btn-mainpart" id="master-mainpart-btn" title="Jump to Main Part / Chorus">
+                <span>🔥</span>
+                <span class="label-text">Main Part 💖</span>
+            </button>
+            <button class="f-btn-special" id="master-special-btn"
+                title="Return to Mithi Chinni's Special Dedication Song">
+                <span>🍬</span>
+                <span class="label-text">Special Song</span>
+            </button>
+            <button class="f-btn-close" id="master-hide-btn" title="Hide Player">✕</button>
+        </div>
+    </div>
+
+
+<!-- JavaScript Files -->
+    <script src="audio.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
